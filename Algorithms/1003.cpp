@@ -35,8 +35,8 @@
 //	{
 //		cin >> N;
 //		if (N == 0)
-//			cout << 1 << ' ' << 0 << '\n';
+//			cout << 1 << ' ' << 0 << endl;
 //		else
-//			cout << fibonacci(N - 1) << ' ' << fibonacci(N) << '\n';
+//			cout << fibonacci(N - 1) << ' ' << fibonacci(N) << endl;
 //	}
 //}
