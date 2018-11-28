@@ -22,21 +22,23 @@
 //	else
 //	{
 //		makeTreeArray(row, col, line / 2);
-//		makeTreeArray(row+3, col-3, line / 2);
-//		makeTreeArray(row+3, col+3, line / 2);
+//		makeTreeArray(row + line / 2, col - line / 2, line / 2);
+//		makeTreeArray(row + line / 2, col + line / 2, line / 2);
 //	}
 //}
 //int main()
 //{
 //	int N;
 //	cin >> N;
-//	makeTreeArray(0, N, N);
+//	makeTreeArray(0, N-1, N);
 //	for (int i = 0; i < N; i++)
 //	{
-//		for (int j = 0; j < N * 2; j++)
+//		for (int j = 0; j < N * 2 + 1; j++)
 //		{
 //			if (arrStar[i][j])
 //				cout << '*';
+//			else if (i == N - 1 && j > N * 2 - 2)
+//				break;
 //			else
 //				cout << ' ';
 //		}
