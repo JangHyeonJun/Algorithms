@@ -4,31 +4,33 @@
 //
 //bool arrStar[3073][6145] = { false, };
 //
-//void makeTreeArray(int line)
+//void makeTreeArray(int row, int col, int line)
 //{
-//	int treeNum = 1;
-//	for (int i = 1; i < (line / 3); i++)
-//		treeNum *= 3;
-//
-//	for (int i = 0; i < treeNum; i++)
+//	if (line <= 3)
 //	{
-//		arrStar[0][2 + 3 * i] = true;
+//		arrStar[row][col] = true;
 //
-//		arrStar[1][1 + 3 * i] = true;
-//		arrStar[1][3 + 3 * i] = true;
+//		arrStar[row + 1][col - 1] = true;
+//		arrStar[row + 1][col + 1] = true;
 //
-//		arrStar[2][0 + 3 * i] = true;
-//		arrStar[2][1 + 3 * i] = true;
-//		arrStar[2][2 + 3 * i] = true;
-//		arrStar[2][3 + 3 * i] = true;
-//		arrStar[2][4 + 3 * i] = true;
+//		arrStar[row + 2][col - 2] = true;
+//		arrStar[row + 2][col - 1] = true;
+//		arrStar[row + 2][col] = true;
+//		arrStar[row + 2][col + 1] = true;
+//		arrStar[row + 2][col + 2] = true;
+//	}
+//	else
+//	{
+//		makeTreeArray(row, col, line / 2);
+//		makeTreeArray(row+3, col-3, line / 2);
+//		makeTreeArray(row+3, col+3, line / 2);
 //	}
 //}
 //int main()
 //{
 //	int N;
 //	cin >> N;
-//	makeTreeArray(N);
+//	makeTreeArray(0, N, N);
 //	for (int i = 0; i < N; i++)
 //	{
 //		for (int j = 0; j < N * 2; j++)
