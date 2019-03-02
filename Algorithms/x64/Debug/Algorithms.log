@@ -1,4 +1,1 @@
-﻿  arrayStack.cpp
-  10828.cpp
-  코드를 생성하고 있습니다...
-  Algorithms.vcxproj -> C:\Users\Jun\Desktop\공부\Algorithms\Algorithms\x64\Debug\Algorithms.exe
+﻿LINK : fatal error LNK1168: D:\MyGit\Algorithms\x64\Debug\Algorithms.exe을(를) 쓰기용으로 열 수 없습니다.
