@@ -12,6 +12,7 @@ int main()
 
 	int stackNum;
 	int input[100000];
+	bool error = true;
 
 	cin >> stackNum;
 
@@ -23,32 +24,44 @@ int main()
 
 	for (int i = 0; i < stackNum; i++)
 	{
+		error = true;
+
 		while (!nums.empty() && nums.top() <= input[i])
 		{
-
 			seq.push(nums.top());
 			nums.pop();
 			output.push('+');
-
 		}
 		while (!seq.empty())
 		{
-			if (seq.top() >= input[i])
+			if (seq.top() == input[i])
+			{
+				seq.pop();
+				output.push('-');
+				error = false;
+				break;
+			}
+			else
 			{
 				seq.pop();
 				output.push('-');
 			}
-			else
-			{
-				cout << "NO" << '\0';
-				return 0;
-			}
+		}
+		if (error)
+		{
+			cout << "NO" << '\0';
+			return 0;
 		}
 	}
 
+	if(!output.empty())
+	{
+	cout << output.front();
+	output.pop();
+	}
 	while (!output.empty())
 	{
-		cout << output.front() << '\n';
+		cout << '\n' << output.front();
 		output.pop();
 	}
 
