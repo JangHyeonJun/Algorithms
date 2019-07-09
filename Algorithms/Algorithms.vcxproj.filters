@@ -287,5 +287,11 @@
     <ClCompile Include="note.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4153.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3053.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
