@@ -164,6 +164,7 @@
     <ClCompile Include="1065.cpp" />
     <ClCompile Include="10718.cpp" />
     <ClCompile Include="10809.cpp" />
+    <ClCompile Include="10814.cpp" />
     <ClCompile Include="10817.cpp" />
     <ClCompile Include="10818.cpp" />
     <ClCompile Include="10828.cpp" />
@@ -178,6 +179,8 @@
     <ClCompile Include="1110.cpp" />
     <ClCompile Include="1152.cpp" />
     <ClCompile Include="1157.cpp" />
+    <ClCompile Include="11650.cpp" />
+    <ClCompile Include="11651.cpp" />
     <ClCompile Include="11654.cpp" />
     <ClCompile Include="11718_11719.cpp" />
     <ClCompile Include="11720.cpp" />
@@ -241,6 +244,7 @@
     <ClCompile Include="9498.cpp" />
     <ClCompile Include="arrayStack.cpp" />
     <ClCompile Include="note.cpp" />
+    <ClCompile Include="quickSort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
