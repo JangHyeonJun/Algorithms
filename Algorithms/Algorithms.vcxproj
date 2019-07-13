@@ -198,6 +198,7 @@
     <ClCompile Include="15596.cpp" />
     <ClCompile Include="1712.cpp" />
     <ClCompile Include="1874.cpp" />
+    <ClCompile Include="1904.cpp" />
     <ClCompile Include="1924.cpp" />
     <ClCompile Include="1929.cpp" />
     <ClCompile Include="1978.cpp" />
@@ -242,6 +243,7 @@
     <ClCompile Include="8393.cpp" />
     <ClCompile Include="8958.cpp" />
     <ClCompile Include="9020.cpp" />
+    <ClCompile Include="9461.cpp" />
     <ClCompile Include="9498.cpp" />
     <ClCompile Include="arrayStack.cpp" />
     <ClCompile Include="note.cpp" />
