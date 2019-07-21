@@ -180,6 +180,8 @@
     <ClCompile Include="10998.cpp" />
     <ClCompile Include="11021.cpp" />
     <ClCompile Include="11022.cpp" />
+    <ClCompile Include="11053.cpp" />
+    <ClCompile Include="11054.cpp" />
     <ClCompile Include="1107.cpp" />
     <ClCompile Include="1110.cpp" />
     <ClCompile Include="1149.cpp" />
