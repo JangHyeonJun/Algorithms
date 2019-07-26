@@ -11,18 +11,17 @@
 //		return 0;
 //	}
 //
-//	int maxPrime = (int)sqrt((double)n) + 1;
-//	bool *eratos = new bool[n+2];
+//	bool *eratos = new bool[n + 2];
 //	int prime = 2;
-//	
-//	for (int i = 0; i < n; i++)
+//
+//	for (int i = 0; i <= n; i++)
 //		eratos[i] = true;
 //
-//	while (prime <= maxPrime)
+//	while (prime <= n)
 //	{
 //		if (eratos[prime])
 //		{
-//			for (int i = prime*2; i < maxPrime; i += prime)
+//			for (int i = prime * 2; i <= n; i += prime)
 //			{
 //				eratos[i] = false;
 //			}
