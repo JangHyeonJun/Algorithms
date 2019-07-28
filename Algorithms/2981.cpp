@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <math.h>
 
 bool comp(const int a, const int b)
 {
@@ -9,46 +10,42 @@ bool comp(const int a, const int b)
 		return false;
 }
 
+// 유클리드 호제법 사용
+int findGCD(int a, int b)
+{
+	int gcd;
+	while (a%b != 0)
+	{
+		gcd = a % b;
+		a = b;
+		b = gcd;
+	}
+	
+	return b;
+}
+
 int main()
 {
 	int n;
 	std::cin >> n;
 
-	int *num = new int[n];
-	int min = 0;
+	int num[100];
+	int gcd;
 
 	for (int i = 0; i < n; i++)
 		std::cin >> num[i];
 
 	std::sort(num, num + n, comp);
 
-	for (int i = 0; i < n - 1; i++)
-		num[i] = num[i + 1] - num[i];
-
-	for (int i = num[0]; i > 1; i--)
+	gcd = num[1] - num[0];
+	for (int i = 2; i < n; i++)
 	{
-		bool flag = true;
-		for(int j=0; j<n-1; j++)
-			if (num[j] % i != 0)
-			{
-				flag = false;
-				break;
-			}
-
-		if (flag)
-		{
-			min = i;
-			break;
-		}
+		gcd = findGCD(gcd, num[i] - num[i-1]);
 	}
 
-	for (int i = 2; i <= min; i++)
-	{
-		if (min%i == 0)
+	for (int i = 2; i <= gcd; i++)
+		if (gcd % i == 0)
 			std::cout << i << ' ';
-	}
-
-	delete[] num;
 
 	return 0;
 }
