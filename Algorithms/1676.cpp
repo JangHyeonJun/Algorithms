@@ -3,16 +3,25 @@
 //int main()
 //{
 //	int n;
-//	int count = 0;
+//	int count5 = 0;
 //	std::cin >> n;
 //
-//	while (n > 0)
+//	for (int i = 1; i <= n; i++)
 //	{
-//		n -= 5;
-//		count++;
+//		int num = i;
+//		while(true)
+//		{
+//			if (num % 5 == 0)
+//			{
+//				num /= 5;
+//				count5++;
+//			}
+//			else
+//				break;
+//		}
+//			
 //	}
 //
-//	std::cout << count;
+//	std::cout << count5;
 //	return 0;
 //}
-// 나중에 고 ^^
