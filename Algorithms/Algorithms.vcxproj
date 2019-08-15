@@ -295,6 +295,8 @@
     <ClCompile Include="5430.cpp" />
     <ClCompile Include="5622.cpp" />
     <ClCompile Include="6064.cpp" />
+    <ClCompile Include="6549.cpp" />
+    <ClCompile Include="segementTreeBasic.cpp" />
     <ClCompile Include="7287.cpp" />
     <ClCompile Include="7568.cpp" />
     <ClCompile Include="8393.cpp" />
