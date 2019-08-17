@@ -172,6 +172,7 @@
     <ClCompile Include="10773.cpp" />
     <ClCompile Include="10809.cpp" />
     <ClCompile Include="10814.cpp" />
+    <ClCompile Include="10816.cpp" />
     <ClCompile Include="10817.cpp" />
     <ClCompile Include="10818.cpp" />
     <ClCompile Include="10828.cpp" />
@@ -298,6 +299,7 @@
     <ClCompile Include="5622.cpp" />
     <ClCompile Include="6064.cpp" />
     <ClCompile Include="6549.cpp" />
+    <ClCompile Include="9095.cpp" />
     <ClCompile Include="segementTreeBasic.cpp" />
     <ClCompile Include="7287.cpp" />
     <ClCompile Include="7568.cpp" />
