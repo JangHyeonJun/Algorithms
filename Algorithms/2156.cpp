@@ -13,7 +13,7 @@
 //	for (int i = 0; i < n; i++)
 //		cin >> wine[i];
 //
-//	dp[0][0] = dp[0][1] = dp[0][2] = wine[0];
+//	dp[0][0] = dp[0][1] = dp[0][2] = wine[0];r
 //	dp[1][0] = wine[1];
 //	dp[1][1] = wine[0] + wine[1];
 //	dp[1][2] = wine[1]; 

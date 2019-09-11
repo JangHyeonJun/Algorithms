@@ -17,7 +17,7 @@
 //{
 //	bool operator()(const pair<int, double> a, const pair<int, double> b)
 //	{
-//		if (abs(a.second - b.second) < 1.0e-8)
+//		if (abs(a.second - b.second) < 1.0e-12)
 //			return a.first > b.first;
 //		return (a.second < b.second);
 //	}

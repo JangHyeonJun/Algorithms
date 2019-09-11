@@ -219,6 +219,7 @@
     <ClCompile Include="1436.cpp" />
     <ClCompile Include="1463.cpp" />
     <ClCompile Include="1475.cpp" />
+    <ClCompile Include="1504.cpp" />
     <ClCompile Include="1541.cpp" />
     <ClCompile Include="1546.cpp" />
     <ClCompile Include="1550.cpp" />
@@ -230,6 +231,7 @@
     <ClCompile Include="1676.cpp" />
     <ClCompile Include="1712.cpp" />
     <ClCompile Include="17298.cpp" />
+    <ClCompile Include="1753.cpp" />
     <ClCompile Include="1780.cpp" />
     <ClCompile Include="1874.cpp" />
     <ClCompile Include="1904.cpp" />
@@ -303,6 +305,21 @@
     <ClCompile Include="6064.cpp" />
     <ClCompile Include="6549.cpp" />
     <ClCompile Include="9095.cpp" />
+    <ClCompile Include="dijkstra.cpp" />
+    <ClCompile Include="dijkstra_pq_graph.cpp" />
+    <ClCompile Include="dijkstra_pq_list.cpp" />
+    <ClCompile Include="dijkstra_pq_path.cpp" />
+    <ClCompile Include="kakao_2019_1.cpp" />
+    <ClCompile Include="kakao_2019_2.cpp" />
+    <ClCompile Include="kakao_2019_3.cpp" />
+    <ClCompile Include="kakao_2020_1.cpp" />
+    <ClCompile Include="kakao_2020_2.cpp" />
+    <ClCompile Include="kakao_2020_5.cpp" />
+    <ClCompile Include="programmers_level1_1.cpp" />
+    <ClCompile Include="programmers_level1_2.cpp" />
+    <ClCompile Include="programmers_level2_1.cpp" />
+    <ClCompile Include="programmers_level2_2.cpp" />
+    <ClCompile Include="programmers_level3_1.cpp" />
     <ClCompile Include="segementTreeBasic.cpp" />
     <ClCompile Include="7287.cpp" />
     <ClCompile Include="7568.cpp" />
