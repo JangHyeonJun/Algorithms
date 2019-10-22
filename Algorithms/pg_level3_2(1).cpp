@@ -16,13 +16,13 @@
 //	int answer = 0;
 //	int size = jobs.size();
 //	sort(jobs.begin(), jobs.end(), Compare());
-//	long long wait = 0;
-//	int time = 0;
 //	auto iter = jobs.begin();
+//	int time = (*iter)[0];
+//	int wait = 0;
 //
 //	while (iter != jobs.end())
 //	{
-//		auto sub_iter = jobs.begin();
+//		auto sub_iter = iter;
 //		int min = 2147483647;
 //		while (sub_iter != jobs.end() && (*sub_iter)[0] <= time)
 //		{
