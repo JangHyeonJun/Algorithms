@@ -2,25 +2,35 @@
 //
 //using namespace std;
 //const int max_num = 100000;
-//bool arr[max_num + 1];
+//int arr[max_num + 1];
 //int G, P;
 //
-//bool binary_docking(int max, int low = 1)
+//void init()
 //{
-//	if (max < low)
-//		return false;
-//	if (!arr[max])
+//	for (int i = 0; i <= G; i++)
 //	{
-//		arr[max] = true;
-//		return true;
+//		arr[i] = i;
 //	}
-//	
-//	int middle = (max + low) / 2;
+//}
 //
-//	if (!arr[middle])
-//		return binary_docking(max - 1, middle);
+//int find_group(int n)
+//{
+//	if (arr[n] == n)
+//		return n;
 //	else
-//		return binary_docking(middle - 1, low);
+//		return arr[n] = find_group(arr[n]); // Path Compression
+//}
+//
+//
+//void union_group(int a, int b)
+//{
+//	int group_a = find_group(a);
+//	int group_b = find_group(b);
+//
+//	if (group_a == group_b)
+//		return union_group(group_a, group_b - 1);
+//
+//	arr[group_a] = group_b;
 //}
 //
 //
@@ -30,13 +40,18 @@
 //	ios::sync_with_stdio(false);
 //	int count = 0;
 //	cin >> G >> P;
+//	init();
 //
 //	for (int i = 1; i <= P; i++)
 //	{
 //		int n;
 //		cin >> n;
-//		if (binary_docking(n))
+//		int gate = find_group(n);
+//		if (gate > 0)
+//		{
+//			union_group(n, n - 1);
 //			count++;
+//		}
 //		else
 //			break;
 //	}
