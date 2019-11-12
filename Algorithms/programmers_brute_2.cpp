@@ -65,7 +65,7 @@
 //
 //int main()
 //{
-//	string s = "0001";
+//	string s = "0";
 //	solution(s);
 //
 //	return 0;

@@ -6,6 +6,7 @@
 //
 //vector<int> solution(vector<int> heights) {
 //	vector<int> answer;
+ 
 //	stack<int> s;
 //	for (int i = heights.size() - 1; i >= 0; i--)
 //	{

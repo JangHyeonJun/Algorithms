@@ -67,7 +67,7 @@
 //
 //int main()
 //{
-//	string s = "BBBBAAAABA";
+//	string s = "XXAAAAAAAAAAAAAXX";
 //	solution(s);
 //
 //	return 0;
