@@ -3,52 +3,35 @@
 //#include <algorithm>
 //using namespace std;
 //
-//const int max_num = 100;
-//int arr[max_num];
-//
-//int find(int n)
-//{
-//	if (arr[n] == n)
-//		return n;
-//	else
-//		return arr[n] = find(arr[n]);
-//}
-//
-//bool union_arr(int a, int b)
-//{
-//	int root_a = find(a);
-//	int root_b = find(b);
-//
-//	if (root_a == root_b)
-//		return false;
-//
-//	arr[root_a] = root_b;
-//	return true;
-//}
-//
-//int solution(int n, vector<vector<int>> costs) {
-//	int cost = 0;
-//	sort(costs.begin(), costs.end(),
-//		[](const vector<int>& a, const vector<int>& b) {return a[2] < b[2]; });
-//
-//	for (int i = 0; i < max_num; i++)
-//		arr[i] = i;
-//
-//	for (int i = 0; i < costs.size(); i++)
+//int solution(vector<vector<int>> routes) {
+//	int answer = 0;
+//	sort(routes.begin(), routes.end());
+//	while (!routes.empty())
 //	{
-//		int u = costs[i][0];
-//		int v = costs[i][1];
-//		if (union_arr(u, v))
-//			cost += costs[i][2];
+//		auto iter = routes.begin();
+//		int min = (*iter)[0];
+//		int max = (*iter)[1];
+//		iter = routes.erase(iter);
+//		while (iter != routes.end())
+//		{
+//			if ((*iter)[0] <= max && (*iter)[1] >= min)
+//			{
+//				min = min > (*iter)[0] ? min : (*iter)[0];
+//				max = max < (*iter)[1] ? max : (*iter)[1];
+//				iter = routes.erase(iter);
+//			}
+//			else
+//				iter++;
+//		}
+//		answer++;
 //	}
-//
-//	return cost;
+//	return answer;
 //}
 //
-////
-////int main()
-////{
-////	vector<vector<int>> v = { {0,1,1}, {0,2,2}, {1,2,5}, {1,3,1}, {2,3,7} };
-////	solution(4, v);
-////	return 0;
-////}
+//int main()
+//{
+//	vector<vector<int>> v = { {-20, 15}, {-14, -5}, {-18, -13}, {-5, -3} };
+//	vector<vector<int>> v2 = { {1,2},{2,3},{3,4},{0,2},{-10,2} };
+//	solution(v2);
+//	return 0;
+//}
