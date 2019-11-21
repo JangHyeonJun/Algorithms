@@ -5,7 +5,7 @@
 //#include <stack>
 //using namespace std;
 //
-//#define INT_MAX 2147483647 / 2
+//#define INT_MAX 2147483647
 //typedef pair<int, int> ii;
 //
 //
@@ -61,6 +61,8 @@
 //		// 큐에 담긴 값 중에 같은 노드에 대해 dist가 최소 값이 아닌데도
 //		// 담겨있는 값이 아래 for문을 돌지 못하도록 예외처리한다.
 //		// 아래 조건문을 지웠을 때 큐에 값을 push하는 횟수가 증가하게된다.
+//		// d[current]가 다른 노드에 의해 변경 되었을 경우
+//		// pq에 담긴 dist는 과거의 최단 거리가 되므로 d[current]가 달라질 수 있다.
 //		if (dist > d[current])
 //			continue;
 //
