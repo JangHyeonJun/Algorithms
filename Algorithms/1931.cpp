@@ -1,52 +1,39 @@
 //#include <iostream>
+//#include <vector>
 //#include <algorithm>
 //
 //using namespace std;
 //
-//bool comp(const pair<int, int> a, const pair<int, int> b)
+//bool comp(const pair<int, int>& a, const pair<int, int>& b)
 //{
-//	if (a.second > b.second)
-//		return false;
-//	else if (a.second == b.second)
-//	{
-//		if (a.first > b.first)
-//			return false;
-//		else if (a.first == b.first)
-//			return true;
-//		else
-//			return true;
-//	}
-//	else
-//		return true;
+//	if (a.second == b.second)
+//		return a.first < b.first;
+//	return a.second < b.second;
 //}
 //int main()
 //{
 //	int n;
 //	cin >> n;
 //
-//	pair<int, int> *conf = new pair<int, int>[n];
+//	vector<pair<int, int>> schedules(n, pair<int, int>());
 //
 //	for (int i = 0; i < n; i++)
-//		cin >> conf[i].first >> conf[i].second;
-//
-//	//quick_sort(conf, 0, n - 1);
-//	sort(conf, conf + n, comp);
+//		cin >> schedules[i].first >> schedules[i].second;
+// 
+//	sort(schedules.begin(), schedules.end(), comp);
 //	int last = 0;
 //	int count = 0;
 //
 //	for (int i = 0; i < n; i++)
 //	{
-//		if (conf[i].first >= last)
+//		if (schedules[i].first >= last)
 //		{
-//			last = conf[i].second;
+//			last = schedules[i].second;
 //			count++;
 //		}
 //	}
 //
 //	cout << count;
-//
-//	delete[] conf;
-//
 //
 //	return 0;
 //}
