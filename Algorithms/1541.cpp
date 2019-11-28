@@ -1,48 +1,64 @@
-//#include <iostream>
-//#include <string>
-//#include <algorithm>
-//
-//int main()
-//{
-//	int sum = 0;
-//	int last = 0;
-//	bool firstMinus = false;
-//	std::string input;
-//	std::cin >> input;
-//
-//	for (int i = 0; i < input.length(); i++)
-//	{
-//		if (!firstMinus)
-//		{
-//			if (input[i] == '+')
-//			{
-//				sum += atoi(input.substr(last, i - last).c_str());
-//				last = i + 1;
-//			}
-//			else if (input[i] == '-')
-//			{
-//				sum += atoi(input.substr(last, i - last).c_str());
-//				last = i + 1;
-//				firstMinus = true;
-//			}
-//			else
-//				continue;
-//		}
-//		else
-//		{
-//			if (input[i] == '+' || input[i] == '-')
-//			{
-//				sum -= atoi(input.substr(last, i - last).c_str());
-//				last = i + 1;
-//			}
-//		}
-//	}
-//	if(firstMinus)
-//		sum -= atoi(input.substr(last, input.length() - last + 1).c_str());
-//	else
-//		sum += atoi(input.substr(last, input.length() - last + 1).c_str());
-//
-//	std::cout << sum;
-//
-//	return 0;
-//}
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int main()
+{
+	int sum = 0;
+	int last = 0;
+	bool is_minus = false;
+	string input;
+	cin >> input;
+	
+	auto iter = input.begin();
+	auto prev = iter;
+
+	if (input[0] == '-')
+	{
+		is_minus = true;
+		iter++;
+		prev++;
+	}
+	
+	while (iter != input.end())
+	{
+		if (is_minus)
+		{
+			if (*iter == '-' || *iter == '+')
+			{
+				int a = stoi(input.substr(prev - input.begin(), iter - prev));
+				sum -= stoi(input.substr(prev - input.begin(), iter - prev));
+				iter++;
+				prev = iter;
+			}
+			else
+				iter++;
+		}
+		else
+		{
+			if (*iter == '-' || *iter == '+')
+			{
+				if (*iter == '-')
+					is_minus = true;
+				int a = stoi(input.substr(prev - input.begin(), iter - prev));
+				sum += stoi(input.substr(prev - input.begin(), iter - prev));
+				iter++;
+				prev = iter;
+				
+			}
+			else
+				iter++;
+		}
+	}
+	if (is_minus)
+		sum -= stoi(input.substr(prev - input.begin(), iter - prev));
+	else
+		sum += stoi(input.substr(prev - input.begin(), iter - prev));
+
+	
+	cout << sum;
+
+	return 0;
+}
