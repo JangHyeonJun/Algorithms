@@ -1,62 +1,44 @@
 //#include <iostream>
 //#include <string>
-//#include <stack>
 //using namespace std;
 //
 //int solution(string s)
 //{
 //	int len = 1;
 //	int max_len = len;
-//	stack<char> st, st2;
 //
-//	auto iter = s.begin();
-//	while (iter != s.end())
+//	for (int i = 0; i < s.length()-1; i++)
 //	{
-//		if (st.empty())
+//		if (i > 0 && s[i - 1] == s[i + 1])
 //		{
-//			st.push(*iter);
-//			iter++;
-//			len = 0;
-//		}
-//		else if(st.top() == *iter)
-//		{
-//			while (iter != s.end() && st.top() != *iter)
+//			len = 1;
+//			int left = i - 1;
+//			int right = i + 1;
+//			while (left >= 0 && right <s.length() && s[left] == s[right])
 //			{
-//				st.pop();
 //				len += 2;
-//				iter++;
-//				if (iter == s.end())
-//					break;
-//				st.push(*iter);
-//				iter++;
+//				left--;
+//				right++;
 //			}
 //		}
-//		else if (st.top() == *(iter + 1))
+//		if (len > max_len)
+//			max_len = len;
+//
+//		if (s[i] == s[i + 1])
 //		{
-//			st.pop();
-//			len += 3;
-//			iter++;
-//			if (iter != s.end())
+//			len = 0;
+//			int left = i;
+//			int right = i + 1;
+//			while (left >= 0 && right < s.length() && s[left] == s[right])
 //			{
-//				st.push(*iter);
-//				iter++;
-//				while (iter != s.end() && st.top() != *iter)
-//				{
-//					st.pop();
-//					len += 2;
-//					iter++;
-//					if (iter == s.end())
-//						break;
-//					st.push(*iter);
-//					iter++;
-//				}
+//				len += 2;
+//				left--;
+//				right++;
 //			}
 //		}
-//		else
-//		{
-//			st.push(*iter);
-//			iter++;
-//		}
+//		
+//		if (len > max_len)
+//			max_len = len;
 //	}
 //
 //	return max_len;
@@ -64,6 +46,6 @@
 //
 //int main()
 //{
-//	string s = "zfabcbadd";
+//	string s = "kfgeddddbd";
 //	solution(s);
 //}
