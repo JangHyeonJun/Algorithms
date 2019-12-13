@@ -5,27 +5,24 @@
 //
 //long long solution(int n, vector<int> works) {
 //	long long answer = 0;
-//	sort(works.begin(), works.end(), greater<int>());
-//	auto iter = works.begin();
-//	while (n > 0)
+//
+//	int sum = 0;
+//	for (int t : works)
+//		sum += t;
+//	if (sum <= n)
+//		return 0;
+//	
+//	sort(works.begin(), works.end());
+//	int max_num = works.back();
+//	while (n > 0 || max_num <= 0)
 //	{
-//		if (iter == works.end() - 1)
-//		{
-//			if (*iter == 0)
-//				break;
-//			*iter = *iter - 1;
-//			n--;
-//			iter = works.begin();
-//		}
+//		auto iter = lower_bound(works.begin(), works.end(), max_num);
+//		if (iter == works.end())
+//			max_num--;
 //		else
 //		{
-//			if (*iter >= *(iter + 1) && *iter > 0)
-//			{
-//				*iter = *iter - 1;
-//				n--;
-//			}
-//			else
-//				iter++;
+//			*iter = *iter - 1;
+//			n--;
 //		}
 //	}
 //
@@ -37,6 +34,6 @@
 //
 //int main()
 //{
-//	vector<int> v = { 4,3,3 };
+//	vector<int> v = { 4, 3, 3 };
 //	solution(4, v);
 //}
