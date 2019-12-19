@@ -12,26 +12,22 @@ long long factorial(long long n)
 	return num;
 }
 
-long long set(long long n, long long m)
+unsigned long long set(int n, int m)
 {
-	long long num1 = 1;
-	long long num2 = 1;
-	if (n > m-n)
+	unsigned long long num = 1;
+	unsigned long long num2 = 1;
+	if (m - n > n)
+		n = m - n;
+	
+	for (int i = 2; i <= m; i++)
 	{
-		for (int i = n + 1; i <= m; i++)
-			num1 *= i;
-		for (int i = 2; i <= (m - n); i++)
-			num2 *= i;
-	}
-	else
-	{
-		for (int i = n + 1; i <= m; i++)
-			num2 *= i;
-		for (int i = 2; i <= (m - n); i++)
-			num1 *= i;
+		int divide = i % (n+1) == 0 ? 1 : i % (n+1);
+		num *= i;
+		num /= divide;
 	}
 
-	return num1 / num2;
+
+	return num;
 }
 
 int main()
@@ -40,7 +36,7 @@ int main()
 	cin >> t;
 	for (int i = 0; i < t; i++)
 	{
-		long long n, m;
+		int n, m;
 		cin >> n >> m;
 		cout << set(n, m) << '\n';
 	}
