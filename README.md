@@ -1,6 +1,5 @@
 # 알고리즘 공부 저장소 :triangular_ruler:
 
-[백준 온라인 저지](https://www.acmicpc.net/)와 같은 PS 사이트의 문제를 연습하거나, 
 
 알고리즘 구현을 연습하기 위한 저장소입니다.
 
