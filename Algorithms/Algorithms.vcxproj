@@ -346,6 +346,7 @@
     <ClCompile Include="kakao_2020_5.cpp" />
     <ClCompile Include="LeetCode_FindNumberswithEvenNumberofDigits.cpp" />
     <ClCompile Include="LeetCode_MaxConsecutiveOnes.cpp" />
+    <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="nx1.cpp" />
     <ClCompile Include="nx1_f.cpp" />
     <ClCompile Include="nx2.cpp" />
