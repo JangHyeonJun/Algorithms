@@ -824,5 +824,8 @@
     <ClCompile Include="LeetCode_MaxConsecutiveOnes.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_FindNumberswithEvenNumberofDigits.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
