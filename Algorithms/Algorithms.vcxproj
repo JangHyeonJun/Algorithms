@@ -347,6 +347,7 @@
     <ClCompile Include="LeetCode_DuplicateZeros.cpp" />
     <ClCompile Include="LeetCode_FindNumberswithEvenNumberofDigits.cpp" />
     <ClCompile Include="LeetCode_MaxConsecutiveOnes.cpp" />
+    <ClCompile Include="LeetCode_MergeSortedArray.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="nx1.cpp" />
     <ClCompile Include="nx1_f.cpp" />
