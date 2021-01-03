@@ -839,5 +839,11 @@
     <ClCompile Include="LeetCode_RemoveElement.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_CheckIfNandItsDoubleExist.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
