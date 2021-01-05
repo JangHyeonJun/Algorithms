@@ -352,6 +352,7 @@
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="LeetCode_RemoveElement.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
+    <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
     <ClCompile Include="nx1.cpp" />
     <ClCompile Include="nx1_f.cpp" />
     <ClCompile Include="nx2.cpp" />
