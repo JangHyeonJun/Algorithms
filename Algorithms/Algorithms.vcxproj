@@ -349,9 +349,11 @@
     <ClCompile Include="LeetCode_FindNumberswithEvenNumberofDigits.cpp" />
     <ClCompile Include="LeetCode_MaxConsecutiveOnes.cpp" />
     <ClCompile Include="LeetCode_MergeSortedArray.cpp" />
+    <ClCompile Include="LeetCode_MoveZeroes.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="LeetCode_RemoveElement.cpp" />
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
+    <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
     <ClCompile Include="nx1.cpp" />
