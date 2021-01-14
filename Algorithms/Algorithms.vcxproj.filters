@@ -866,5 +866,8 @@
     <ClCompile Include="LeetCode_FindAllNumbersDisappearedinanArray.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_ReverseInteger.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
