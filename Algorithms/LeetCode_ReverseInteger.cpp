@@ -10,10 +10,9 @@
 //
 //        while (x)
 //        {
-//            int temp = (long)result * 10 + x % 10;
-//            if (temp / 10 != result)
+//            if (result > INT_MAX / 10 || result < INT_MIN / 10)
 //                return 0;
-//            result = temp;
+//            result = result * 10 + x % 10;
 //            x /= 10;
 //        }
 //
@@ -24,5 +23,5 @@
 //int main()
 //{
 //    Solution s;
-//    s.reverse(1538474129);
+//    s.reverse(54341);
 //}
