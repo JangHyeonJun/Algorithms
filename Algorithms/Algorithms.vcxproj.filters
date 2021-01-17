@@ -14,19 +14,13 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="소스 파일\baekjoon">
-      <UniqueIdentifier>{c4c3a1a4-47bc-420e-8f79-cfc85da4452f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\algorithm">
-      <UniqueIdentifier>{bd218b53-6e20-4b78-a51f-8650547096c6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\kakao">
-      <UniqueIdentifier>{f939654b-e7e2-4ce3-8675-9072d7b64fd3}</UniqueIdentifier>
+      <UniqueIdentifier>{7899885b-ee31-4c98-8992-3d10610ad226}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\programmers">
-      <UniqueIdentifier>{ae4291c3-8569-4de6-930f-226c5160ecd1}</UniqueIdentifier>
+      <UniqueIdentifier>{bb8ed614-cc13-4030-91d4-1de399a7e7f9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\nc">
-      <UniqueIdentifier>{4ecfbe2e-af38-4a5d-8470-cca7c7d68fd0}</UniqueIdentifier>
+    <Filter Include="소스 파일\leetcode">
+      <UniqueIdentifier>{ebd33ffa-d067-4565-a2da-536bbab40684}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\LeetCode">
       <UniqueIdentifier>{92275763-c288-4321-8219-c75e84eeaff3}</UniqueIdentifier>
@@ -44,7 +38,55 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="arrayStack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="note.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="segementTreeBasic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2019_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2019_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2019_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2020_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2020_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2020_5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra_pq_graph.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra_pq_list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra_pq_path.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2020_7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hacker_AlternatingCharacters.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hacker_SherlockValidString.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1000.cpp">
@@ -69,6 +111,9 @@
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="1009.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1010.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="1011.cpp">
@@ -395,6 +440,9 @@
     <ClCompile Include="4673.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="4673_2.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
     <ClCompile Include="4948.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
@@ -494,9 +542,6 @@
     <ClCompile Include="10773.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="10797.cpp">
-      <Filter>소스 파일\baekjoon</Filter>
-    </ClCompile>
     <ClCompile Include="10809.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
@@ -513,9 +558,6 @@
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="10828.cpp">
-      <Filter>소스 파일\baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="10833.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="10844.cpp">
@@ -605,9 +647,6 @@
     <ClCompile Include="11866.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="14888.cpp">
-      <Filter>소스 파일\baekjoon</Filter>
-    </ClCompile>
     <ClCompile Include="15552.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
@@ -635,211 +674,55 @@
     <ClCompile Include="17298.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="arrayStack.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="dijkstra.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="dijkstra_pq_graph.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="dijkstra_pq_list.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="dijkstra_pq_path.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="quickSort.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="segementTreeBasic.cpp">
-      <Filter>소스 파일\algorithm</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2017_3.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2019_1.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2019_2.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2019_3.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2020_1.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2020_2.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2020_5.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao2020_7.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_1845.cpp">
+    <ClCompile Include="programmers_12901.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12899.cpp">
+    <ClCompile Include="programmers_12903.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12905.cpp">
+    <ClCompile Include="programmers_12904.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12906.cpp">
+    <ClCompile Include="programmers_12912.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12907.cpp">
+    <ClCompile Include="programmers_12914.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12909.cpp">
+    <ClCompile Include="programmers_12916.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12911.cpp">
+    <ClCompile Include="programmers_12917.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12913.cpp">
+    <ClCompile Include="programmers_12918.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12924.cpp">
+    <ClCompile Include="programmers_12919.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12939.cpp">
+    <ClCompile Include="programmers_12922.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12941.cpp">
+    <ClCompile Include="programmers_12925.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12945.cpp">
+    <ClCompile Include="programmers_12926.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12946.cpp">
+    <ClCompile Include="programmers_12927.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12949.cpp">
+    <ClCompile Include="programmers_12928.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12951.cpp">
+    <ClCompile Include="programmers_12973.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12977.cpp">
+    <ClCompile Include="programmers_12985.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_49993.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_60057.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_62048.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_binary_search_1(2).cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_binary_search_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_binary_search_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brinary_search_1(3).cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brute_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brute_2(2).cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brute_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brute_3(2).cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brute_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_brute_4.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dfs_bfs_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dfs_bfs_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dfs_bfs_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dfs_bfs_4.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dp_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dp_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dp_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dp_4.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_dp_4_bfs.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_graph_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_graph_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_4.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_5.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_6.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_greedy_7.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_hash_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_hash_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_hash_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_hash_4.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_heap_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_heap_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_heap_4.cpp">
+    <ClCompile Include="programmers_17677.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
     <ClCompile Include="programmers_level1_1.cpp">
@@ -881,33 +764,6 @@
     <ClCompile Include="programmers_level3_1.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_sort_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_sort_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_sort_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_stack_queue_1.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_stack_queue_2.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_stack_queue_3.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_stack_queue_4.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_stack_queue_5.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="programmers_stack_queue_6.cpp">
-      <Filter>소스 파일\programmers</Filter>
-    </ClCompile>
     <ClCompile Include="pg_level3_1%281%29.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
@@ -920,23 +776,53 @@
     <ClCompile Include="pg_level3_2%282%29.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
-    <ClCompile Include="nc_1.cpp">
-      <Filter>소스 파일\nc</Filter>
+    <ClCompile Include="LeetCode_MaxConsecutiveOnes.cpp">
+      <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="nc_2.cpp">
-      <Filter>소스 파일\nc</Filter>
+    <ClCompile Include="LeetCode_FindNumberswithEvenNumberofDigits.cpp">
+      <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="nc_3.cpp">
-      <Filter>소스 파일\nc</Filter>
+    <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_59415.cpp">
-      <Filter>소스 파일\programmers</Filter>
+    <ClCompile Include="LeetCode_DuplicateZeros.cpp">
+      <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12953.cpp">
-      <Filter>소스 파일\programmers</Filter>
+    <ClCompile Include="LeetCode_MergeSortedArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_12904.cpp">
-      <Filter>소스 파일\programmers</Filter>
+    <ClCompile Include="LeetCode_RemoveElement.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_CheckIfNandItsDoubleExist.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_ValidMountainArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_MoveZeroes.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_SortArrayByParity.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_HeightChecker.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_FindAllNumbersDisappearedinanArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_ReverseInteger.cpp">
+      <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
     <ClCompile Include="1260_2.cpp">
       <Filter>소스 파일\baekjoon</Filter>
