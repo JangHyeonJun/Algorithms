@@ -345,6 +345,7 @@
     <ClCompile Include="kakao_2020_1.cpp" />
     <ClCompile Include="kakao_2020_2.cpp" />
     <ClCompile Include="kakao_2020_5.cpp" />
+    <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
     <ClCompile Include="LeetCode_ReverseInteger.cpp" />
     <ClCompile Include="LeetCode_CheckIfNandItsDoubleExist.cpp" />
     <ClCompile Include="LeetCode_DuplicateZeros.cpp" />
