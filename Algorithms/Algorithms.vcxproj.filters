@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\nc">
       <UniqueIdentifier>{4ecfbe2e-af38-4a5d-8470-cca7c7d68fd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LeetCode">
+      <UniqueIdentifier>{92275763-c288-4321-8219-c75e84eeaff3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -934,6 +937,9 @@
     </ClCompile>
     <ClCompile Include="programmers_12904.cpp">
       <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="1260_2.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
