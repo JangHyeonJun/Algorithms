@@ -358,6 +358,7 @@
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="LeetCode_RemoveElement.cpp" />
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
+    <ClCompile Include="LeetCode_RomantoInteger.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp" />
