@@ -339,12 +339,14 @@
     <ClCompile Include="dijkstra_pq_path.cpp" />
     <ClCompile Include="hacker_AlternatingCharacters.cpp" />
     <ClCompile Include="hacker_SherlockValidString.cpp" />
+    <ClCompile Include="hashTable.cpp" />
     <ClCompile Include="kakao_2019_1.cpp" />
     <ClCompile Include="kakao_2019_2.cpp" />
     <ClCompile Include="kakao_2019_3.cpp" />
     <ClCompile Include="kakao_2020_1.cpp" />
     <ClCompile Include="kakao_2020_2.cpp" />
     <ClCompile Include="kakao_2020_5.cpp" />
+    <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
     <ClCompile Include="LeetCode_ReverseInteger.cpp" />
     <ClCompile Include="LeetCode_CheckIfNandItsDoubleExist.cpp" />

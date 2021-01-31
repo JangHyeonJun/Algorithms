@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\LeetCode">
       <UniqueIdentifier>{92275763-c288-4321-8219-c75e84eeaff3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\algorithm">
+      <UniqueIdentifier>{ea381304-4069-436b-a70c-a56631da741c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -831,6 +834,12 @@
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
     <ClCompile Include="LeetCode_RomantoInteger.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="hashTable.cpp">
+      <Filter>소스 파일\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_IntegertoRoman.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
   </ItemGroup>
