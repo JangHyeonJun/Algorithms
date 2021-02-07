@@ -17,17 +17,37 @@
 //        v.push_back(pair<int, char>(5, 'V'));
 //        v.push_back(pair<int, char>(1, 'I'));
 //
-//        auto& iter = v.begin();
+//        auto iter = v.begin();
 //
 //        while (num > 0 && iter != v.end())
 //        {
-//            if (iter->first <= num)
+//            int value = iter->first;
+//            char roman = iter->second;
+//            if (value <= num)
 //            {
-//                result += iter->second;
-//                num -= iter->first;
+//				result += roman;
+//				num -= value;
+//                continue;
 //            }
-//            else
-//                iter++;
+//
+//            auto lowerIter = iter+1;
+//
+//            while (lowerIter != v.end())
+//            {
+//                auto& lowerValue = lowerIter->first;
+//                auto& lowerRoman = lowerIter->second;
+//
+//                if (num >= value - lowerValue && value > lowerValue * 4)
+//				{
+//					result += lowerRoman;
+//					result += roman;
+//                    num -= value - lowerValue;
+//                }
+//
+//                lowerIter++;
+//            }
+//
+//            iter++;
 //        }
 //
 //        return result;
@@ -37,5 +57,5 @@
 //int main()
 //{
 //    Solution s;
-//    s.intToRoman(4);
+//    s.intToRoman(9);
 //}
