@@ -402,7 +402,7 @@
     <ClCompile Include="programmers_level3(5)_1.cpp" />
     <ClCompile Include="programmers_level3(5)_2.cpp" />
     <ClCompile Include="programmers_level3_1.cpp" />
-    <ClCompile Include="ReetCode_RotateArray.cpp" />
+    <ClCompile Include="LeetCode_RotateArray.cpp" />
     <ClCompile Include="segementTreeBasic.cpp" />
     <ClCompile Include="7287.cpp" />
     <ClCompile Include="7568.cpp" />
