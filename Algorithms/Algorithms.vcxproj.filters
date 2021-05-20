@@ -845,7 +845,13 @@
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="ReetCode_RotateArray.cpp">
+    <ClCompile Include="LeetCode_RotateArray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_ContainsDuplicate.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_SingleNumber.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
   </ItemGroup>

@@ -347,6 +347,7 @@
     <ClCompile Include="kakao_2020_2.cpp" />
     <ClCompile Include="kakao_2020_5.cpp" />
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp" />
+    <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
     <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
     <ClCompile Include="LeetCode_ReverseInteger.cpp" />
@@ -362,6 +363,7 @@
     <ClCompile Include="LeetCode_RemoveElement.cpp" />
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
     <ClCompile Include="LeetCode_RomantoInteger.cpp" />
+    <ClCompile Include="LeetCode_SingleNumber.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp" />
