@@ -854,5 +854,17 @@
     <ClCompile Include="LeetCode_SingleNumber.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="IntersectionofTwoArraysII.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidAnagram.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

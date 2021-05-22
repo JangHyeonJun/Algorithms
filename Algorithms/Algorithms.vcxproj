@@ -340,6 +340,7 @@
     <ClCompile Include="hacker_AlternatingCharacters.cpp" />
     <ClCompile Include="hacker_SherlockValidString.cpp" />
     <ClCompile Include="hashTable.cpp" />
+    <ClCompile Include="IntersectionofTwoArraysII.cpp" />
     <ClCompile Include="kakao_2019_1.cpp" />
     <ClCompile Include="kakao_2019_2.cpp" />
     <ClCompile Include="kakao_2019_3.cpp" />
@@ -373,6 +374,7 @@
     <ClCompile Include="kakao2020_7.cpp" />
     <ClCompile Include="pg_level3_2(1).cpp" />
     <ClCompile Include="pg_level3_2%282%29.cpp" />
+    <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="programmers_12901.cpp" />
     <ClCompile Include="programmers_12903.cpp" />
     <ClCompile Include="programmers_12904.cpp" />
@@ -405,6 +407,7 @@
     <ClCompile Include="programmers_level3(5)_2.cpp" />
     <ClCompile Include="programmers_level3_1.cpp" />
     <ClCompile Include="LeetCode_RotateArray.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="segementTreeBasic.cpp" />
     <ClCompile Include="7287.cpp" />
     <ClCompile Include="7568.cpp" />
@@ -419,6 +422,7 @@
     <ClCompile Include="arrayStack.cpp" />
     <ClCompile Include="note.cpp" />
     <ClCompile Include="quickSort.cpp" />
+    <ClCompile Include="ValidAnagram.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
