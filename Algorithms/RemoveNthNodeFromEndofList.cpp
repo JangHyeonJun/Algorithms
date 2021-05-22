@@ -17,34 +17,15 @@
 //            nodeSize++;
 //        }
 //
-//        if (nodeSize == 1)
-//        {
-//            delete head;
-//            return nullptr;
-//        }
-//
 //        n = (nodeSize + 1) - n;
 //
 //        if (n == 1)
-//        {
-//            ListNode* newHead;
-//            if (head->next != nullptr)
-//                newHead = head->next;
-//            delete head;
-//            return newHead;
-//        }
+//            return head->next;
 //
 //        ListNode* prevNode = head;
 //        for (int i = 1; i < n - 1; i++)
 //            prevNode = prevNode->next;
-//        ListNode* removeNode = prevNode->next;
-//
-//        if (removeNode->next != nullptr)
-//            prevNode->next = removeNode->next;
-//        else
-//            prevNode->next = nullptr;
-//
-//        delete removeNode;
+//		prevNode->next = prevNode->next->next;
 //
 //        return head;
 //    }
