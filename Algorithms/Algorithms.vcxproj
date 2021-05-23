@@ -333,6 +333,7 @@
     <ClCompile Include="9251.cpp" />
     <ClCompile Include="9372.cpp" />
     <ClCompile Include="9663.cpp" />
+    <ClCompile Include="DeleteNodeinaLinkedList.cpp" />
     <ClCompile Include="dijkstra.cpp" />
     <ClCompile Include="dijkstra_pq_graph.cpp" />
     <ClCompile Include="dijkstra_pq_list.cpp" />
@@ -369,6 +370,7 @@
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
+    <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="pg_level3_1%281%29.cpp" />
     <ClCompile Include="pg_level3_1(2).cpp" />
     <ClCompile Include="kakao2020_7.cpp" />
@@ -407,6 +409,7 @@
     <ClCompile Include="programmers_level3(5)_2.cpp" />
     <ClCompile Include="programmers_level3_1.cpp" />
     <ClCompile Include="LeetCode_RotateArray.cpp" />
+    <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="segementTreeBasic.cpp" />
     <ClCompile Include="7287.cpp" />
