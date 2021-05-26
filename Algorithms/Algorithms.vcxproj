@@ -425,6 +425,7 @@
     <ClCompile Include="arrayStack.cpp" />
     <ClCompile Include="note.cpp" />
     <ClCompile Include="quickSort.cpp" />
+    <ClCompile Include="LeetCode_ClimbingStairs.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
