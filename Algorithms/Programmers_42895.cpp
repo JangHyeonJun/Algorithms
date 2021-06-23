@@ -10,9 +10,9 @@
 //    if (N == goal)
 //        return 1;
 //
-//    int depth = 0;
+//    int depth = -1;
 //    queue<pair<int, int>> q;
-//    q.push(make_pair(0, N));
+//    q.push(make_pair(0, 0));
 //
 //    while (!q.empty())
 //    {
@@ -27,15 +27,15 @@
 //            auto pair = q.front();
 //            q.pop();        
 //
-//            if (pair.first + pair.second == goal)
+//            if (pair.first == goal)
 //                return depth;
-// 
+//            pair.second = pair.second * 10 + N;
 //
-//            temp.push(make_pair(sum + N, 0));
-//            temp.push(make_pair(sum - N, 0));
-//            temp.push(make_pair(sum * N, 0));
-//            temp.push(make_pair(sum / N, 0));
-//			temp.push(make_pair(pair.first, pair.second * 10 + N));
+//			temp.push(make_pair(pair.first + pair.second, 0));
+//			temp.push(make_pair(pair.first - pair.second, 0));
+//			temp.push(make_pair(pair.first * pair.second, 0));
+//			temp.push(make_pair(pair.first / pair.second, 0));
+//			temp.push(make_pair(pair.first, pair.second));
 //        }
 //
 //        q = temp;
@@ -50,7 +50,7 @@
 //
 //int main()
 //{
-//    solution(2, 11);
+//    solution(5, 50);
 //
 //    return 0;
 //}
