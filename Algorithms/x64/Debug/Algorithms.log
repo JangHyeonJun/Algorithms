@@ -1,4 +1,2 @@
-﻿  Programmers_42746.cpp
-E:\MyGit\AlgorithmStudy\Algorithms\Programmers_42746.cpp(54,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-E:\MyGit\AlgorithmStudy\Algorithms\Programmers_42746.cpp(67,10): warning C4101: 'c': unreferenced local variable
+﻿  programmers_43238.cpp
   Algorithms.vcxproj -> E:\MyGit\AlgorithmStudy\Algorithms\x64\Debug\Algorithms.exe
