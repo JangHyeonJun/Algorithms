@@ -1,13 +1,45 @@
-
-
-// 우선순위 큐 사용버전 (시간 초과)
 //#include <string>
 //#include <vector>
 //#include <queue>
+//#include <algorithm>
 //#include <iostream>
 //
 //#define TIME pair<long long, long long>
 //using namespace std;
+//
+//// 걸리는 시간을 역으로 계산하며 최적의 시간을 찾아 이분탐색하는 풀이방법 사용.
+//unsigned long long GetImmigrationCount(const unsigned long long& waitingTime, const vector<int>& workingTimes)
+//{
+//    unsigned long long count = 0;
+//    for (auto& workingTime : workingTimes)
+//        count += waitingTime / workingTime;
+//
+//    return count;
+//}
+//
+//unsigned long long solution(int n, vector<int> times) {
+//    unsigned long long answer = 0;
+//    unsigned long long high = 1000000000000000001;
+//    unsigned long long low = 1;
+//    unsigned long long mid = (high + low) / 2;
+//
+//    sort(times.begin(), times.end());
+//
+//    while (low <= high)
+//    {
+//        mid = (high + low) / 2;
+//
+//        if (GetImmigrationCount(mid, times) < n)
+//            low = mid + 1;
+//        else
+//            high = mid - 1;
+//    }
+//    
+//    return low;
+//}
+
+
+// 우선순위 큐 사용버전 (시간 초과)
 //
 //long long solution(int n, vector<int> times) {
 //    long long answer = 0;
@@ -29,30 +61,30 @@
 //
 //int main()
 //{
-//    int n = 3;
 //    vector<int> v = { 4, 3, 2, 1 };
-//    cout << solution(n, v) << endl;
+//    vector<int> v2 = { 7, 10 };
+//    cout << solution(6, v2) << endl;
 //
 //    return 0;
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // 이전 버전
 //#include <string>
 //#include <vector>
