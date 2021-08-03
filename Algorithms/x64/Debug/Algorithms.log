@@ -1,2 +1,4 @@
-﻿  programmers_42862.cpp
+﻿  programmers_42860.cpp
+E:\MyGit\Algorithm\Algorithms\programmers_42860.cpp(40,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+E:\MyGit\Algorithm\Algorithms\programmers_42860.cpp(57,44): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   Algorithms.vcxproj -> E:\MyGit\Algorithm\Algorithms\x64\Debug\Algorithms.exe
