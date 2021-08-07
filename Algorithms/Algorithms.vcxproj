@@ -401,6 +401,7 @@
     <ClCompile Include="programmers_42842.cpp" />
     <ClCompile Include="programmers_42860.cpp" />
     <ClCompile Include="programmers_42862.cpp" />
+    <ClCompile Include="programmers_42883.cpp" />
     <ClCompile Include="Programmers_42895.cpp" />
     <ClCompile Include="Programmers_43105.cpp" />
     <ClCompile Include="programmers_43238.cpp" />
