@@ -1,2 +1,3 @@
-﻿  programmers_42883.cpp
+﻿  programmers_42885.cpp
+E:\MyGit\AlgorithmStudy\Algorithms\programmers_42885.cpp(10,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Algorithms.vcxproj -> E:\MyGit\AlgorithmStudy\Algorithms\x64\Debug\Algorithms.exe
