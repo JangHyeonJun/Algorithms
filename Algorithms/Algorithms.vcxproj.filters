@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\algorithm">
       <UniqueIdentifier>{ea381304-4069-436b-a70c-a56631da741c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\toss">
+      <UniqueIdentifier>{336a9054-d612-484f-bdd6-9e57b98e7017}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -918,6 +921,27 @@
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
     <ClCompile Include="programmers_42898.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_1.cpp">
+      <Filter>소스 파일\toss</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_2.cpp">
+      <Filter>소스 파일\toss</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_6.cpp">
+      <Filter>소스 파일\toss</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_5.cpp">
+      <Filter>소스 파일\toss</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers_82612.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers_83201.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers_84021.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
   </ItemGroup>

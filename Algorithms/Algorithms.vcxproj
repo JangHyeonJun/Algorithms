@@ -408,6 +408,9 @@
     <ClCompile Include="programmers_42898.cpp" />
     <ClCompile Include="Programmers_43105.cpp" />
     <ClCompile Include="programmers_43238.cpp" />
+    <ClCompile Include="programmers_82612.cpp" />
+    <ClCompile Include="programmers_83201.cpp" />
+    <ClCompile Include="programmers_84021.cpp" />
     <ClCompile Include="programmers_level1_1.cpp" />
     <ClCompile Include="programmers_level1_2.cpp" />
     <ClCompile Include="programmers_level2_1.cpp" />
@@ -440,6 +443,10 @@
     <ClCompile Include="note.cpp" />
     <ClCompile Include="quickSort.cpp" />
     <ClCompile Include="LeetCode_ClimbingStairs.cpp" />
+    <ClCompile Include="toss_1.cpp" />
+    <ClCompile Include="toss_2.cpp" />
+    <ClCompile Include="toss_5.cpp" />
+    <ClCompile Include="toss_6.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
