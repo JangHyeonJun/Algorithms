@@ -11,30 +11,48 @@
 //    vector<vector<int>> rectangularTile;
 //};
 //
-//bool IsEqualTile(vector<vector<int>>& r1, vector<vector<int>> r2)
+//vector<vector<int>> RotateTile(const vector<vector<int>>& tile)
 //{
-//    size_t height = r1.size();
-//    size_t width = r1[0].size();
-//
-//    bool isRotated = height == r2.size() ? false : true;
-//
-//    if (!isRotated && width != r2[0].size())
-//        return false;
-//    else if (isRotated && height != r2.size())
-//        return false;
+//    size_t height = tile.size();
+//    size_t width = tile[0].size();
+//    vector<vector<int>> rotated(width, vector<int>(height));
 //
 //    for (int i = 0; i < height; i++)
-//    {
 //        for (int j = 0; j < width; j++)
-//        {
-//            if (isRotated && r1[i][j] != r2[j][i])
-//                return false;
-//            else if (!isRotated && r1[i][j] != r2[i][j])
-//                return false;
-//        }
+//            rotated[width - 1 - j][i] = tile[i][j];
+//
+//    return rotated;
+//}
+//
+//bool IsEqualTile(vector<vector<int>>& r1, vector<vector<int>>& r2)
+//{
+//    size_t h1 = r1.size();
+//    size_t w1 = r1[0].size();
+//
+//    for (int rotate = 0; rotate < 4; rotate++)
+//    {
+//        bool isEqual = true;
+//        size_t h2 = r2.size();
+//        size_t w2 = r2[0].size();
+//
+//        if (!(h1 == h2 && w1 == w2) && !(h1 == w2 && w1 == h2))
+//            return false;
+//
+//        for (int i = 0; i < h1; i++)
+//            for (int j = 0; j < w1; j++)
+//                if ((h1 != h2 && w1 != w2) ||
+//                    r1[i][j] != r2[i][j])
+//                {
+//                    isEqual = false;
+//                    break;
+//                }
+//
+//        if (isEqual)
+//            return true;
+//        r2 = RotateTile(r2);
 //    }
 //
-//    return true;
+//    return false;
 //}
 //
 //
@@ -65,8 +83,6 @@
 //        {
 //            if (!visited[i][j])
 //            {
-//                visited[i][j] = true;
-//
 //                int tileCount = 0;
 //                int minRow, minCol, maxRow, maxCol;
 //                minRow = maxRow = i;
@@ -81,6 +97,8 @@
 //                    {
 //                        auto pos = s.top();
 //                        s.pop();
+//                        if (visited[pos.first][pos.second])
+//                            continue;
 //                        visited[pos.first][pos.second] = true;
 //                        tileCount++;
 //
@@ -105,7 +123,7 @@
 //
 //                    int width = maxCol - minCol + 1;
 //                    int height = maxRow - minRow + 1;
-//                    auto rectangularTile = MakeRectangularTile(table, i, j, width, height, false);
+//                    auto rectangularTile = MakeRectangularTile(table, minRow, minCol, width, height, false);
 //
 //                    tileMap.insert(make_pair(tileCount, rectangularTile));
 //                }
@@ -125,8 +143,6 @@
 //        {
 //            if (!visited[i][j])
 //            {
-//                visited[i][j] = true;
-//
 //                int tileCount = 0;
 //                int minRow, minCol, maxRow, maxCol;
 //                minRow = maxRow = i;
@@ -141,6 +157,8 @@
 //                    {
 //                        auto pos = s.top();
 //                        s.pop();
+//                        if (visited[pos.first][pos.second])
+//                            continue;
 //                        visited[pos.first][pos.second] = true;
 //                        tileCount++;
 //
@@ -167,7 +185,7 @@
 //                    {
 //                        int width = maxCol - minCol + 1;
 //                        int height = maxRow - minRow + 1;
-//                        auto rectangularTile = MakeRectangularTile(gameBoard, i, j, width, height, true);
+//                        auto rectangularTile = MakeRectangularTile(gameBoard, minRow, minCol, width, height, true);
 //
 //                        auto iter = tileMap.equal_range(tileCount);
 //                        for (auto it = iter.first; it != iter.second; it++)
@@ -175,6 +193,7 @@
 //                            if (IsEqualTile(rectangularTile, it->second))
 //                            {
 //                                fillCount += tileCount;
+//                                tileMap.erase(it);
 //                                break;
 //                            }
 //                        }
@@ -215,7 +234,32 @@
 //    {1,1,0,1,1,0},
 //    {0,1,0,0,0,0} };
 //
-//    solution(gameBoard, table);
+//    vector<vector<int>> gameBoard2{
+//        {0,0},
+//        {0,0}
+//    };
+//    vector<vector<int>> table2{
+//        {1,1},
+//        {1,1}
+//	};
+//	vector<vector<int>> gameBoard3 = {
+//		{0,0,1,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0},
+//	{1,0,0,0,1,0,1,0,1,0,1,0,0,1,0,1,1,1},
+//	{0,1,1,1,0,0,1,0,1,0,0,1,1,0,1,0,0,0},
+//	{0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,0,0,0},
+//	{0,1,1,1,0,0,1,1,1,1,0,1,1,1,0,1,1,1},
+//	{1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0},
+//	{0,0,0,1,1,1,0,0,1,1,0,1,1,1,1,0,0,1},
+//	{1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0},
+//	{0,0,1,0,1,1,1,0,0,1,0,1,1,1,1,0,0,0},
+//	{1,1,0,1,1,0,1,1,1,1,0,1,0,0,0,1,1,1},
+//	{0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,1,0},
+//	{1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,0,1,0},
+//	{0,0,1,0,0,0,1,0,0,0,1,0,1,0,1,1,0,0},
+//	{1,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,0,1}, {1,0,0,1,1,0,0,1,1,1,0,1,1,1,0,1,1,0}, {0,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0}, {0,0,0,1,0,1,0,1,0,0,1,1,1,1,1,1,1,0}, {0,1,0,1,1,0,0,1,0,1,0,0,0,0,0,0,1,0} };
+//	vector<vector<int>> table3 = { {1,1,1,1,1,1,0,1,0,1,1,0,0,1,0,0,1,0}, {0,0,0,0,0,0,1,1,1,0,1,0,1,1,0,1,1,0}, {1,0,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,1}, {1,1,0,1,1,1,0,1,0,1,0,1,1,0,1,0,0,1}, {1,1,1,0,0,0,1,0,1,0,1,0,0,1,0,0,1,1}, {0,0,0,1,1,1,0,1,1,1,0,1,1,0,1,0,0,0}, {1,1,1,0,0,0,0,0,1,1,0,1,1,0,1,1,1,1}, {0,0,1,0,1,1,0,1,0,0,1,0,0,1,0,0,0,0}, {1,0,1,0,0,0,0,1,0,1,1,0,1,1,0,1,1,1}, {1,0,1,0,1,1,1,1,0,1,1,0,0,0,1,1,1,0}, {1,1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0}, {0,0,1,1,1,1,0,1,1,0,1,0,0,0,1,1,0,1}, {1,1,0,1,0,0,1,0,0,1,0,1,0,1,0,1,0,1}, {1,1,0,0,1,1,1,0,1,1,0,1,0,1,0,1,0,1}, {0,0,1,1,0,1,1,0,1,0,1,1,0,0,0,1,0,0}, {1,1,1,0,1,0,0,1,0,1,1,0,0,1,0,1,0,1}, {0,0,0,0,1,0,1,1,1,0,0,1,0,1,1,0,1,1}, {0,1,1,1,1,0,0,1,0,0,1,1,0,1,0,0,1,1} };
+//
+//    solution(gameBoard3, table3);
 //
 //    return 0;
 //}
