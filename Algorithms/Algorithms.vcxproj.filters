@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\toss">
       <UniqueIdentifier>{336a9054-d612-484f-bdd6-9e57b98e7017}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\kakao2022">
+      <UniqueIdentifier>{1ee4082c-cf2b-402a-9db7-1fa411698271}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -955,6 +958,18 @@
     </ClCompile>
     <ClCompile Include="LeetCode_NumberOf1Bits.cpp">
       <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2022_1.cpp">
+      <Filter>소스 파일\kakao2022</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2022_2.cpp">
+      <Filter>소스 파일\kakao2022</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2022_3.cpp">
+      <Filter>소스 파일\kakao2022</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2020_6.cpp">
+      <Filter>소스 파일\kakao2022</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

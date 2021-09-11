@@ -342,6 +342,10 @@
     <ClCompile Include="hacker_SherlockValidString.cpp" />
     <ClCompile Include="hashTable.cpp" />
     <ClCompile Include="IntersectionofTwoArraysII.cpp" />
+    <ClCompile Include="kakao2020_6.cpp" />
+    <ClCompile Include="kakao2022_1.cpp" />
+    <ClCompile Include="kakao2022_2.cpp" />
+    <ClCompile Include="kakao2022_3.cpp" />
     <ClCompile Include="kakao_2019_1.cpp" />
     <ClCompile Include="kakao_2019_2.cpp" />
     <ClCompile Include="kakao_2019_3.cpp" />
