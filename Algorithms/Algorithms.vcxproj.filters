@@ -31,9 +31,6 @@
     <Filter Include="소스 파일\toss">
       <UniqueIdentifier>{336a9054-d612-484f-bdd6-9e57b98e7017}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\kakao">
-      <UniqueIdentifier>{f9178684-28d6-4975-a23a-235a74bd3bc7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -59,6 +56,24 @@
     <ClCompile Include="segementTreeBasic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="kakao_2019_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2019_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2019_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2020_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2020_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_2020_5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="dijkstra.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -69,6 +84,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="dijkstra_pq_path.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao2020_7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="hacker_AlternatingCharacters.cpp">
@@ -791,6 +809,9 @@
     <ClCompile Include="LeetCode_ValidMountainArray.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="LeetCode_MoveZeroes.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
@@ -826,6 +847,9 @@
     </ClCompile>
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp">
       <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_RotateArray.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp">
       <Filter>소스 파일\leetcode</Filter>
@@ -937,45 +961,6 @@
     </ClCompile>
     <ClCompile Include="LeetCode_LargestPlusSign.cpp">
       <Filter>소스 파일\leetcode</Filter>
-    </ClCompile>
-    <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp">
-      <Filter>소스 파일\leetcode</Filter>
-    </ClCompile>
-    <ClCompile Include="LeetCode_RotateArray.cpp">
-      <Filter>소스 파일\leetcode</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao2020_7.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2019_1.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2019_2.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2019_3.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2020_1.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2020_2.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_2020_5.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao2022_3.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao2022_2.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao2022_1.cpp">
-      <Filter>소스 파일\kakao</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao2022_6.cpp">
-      <Filter>소스 파일\kakao</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
