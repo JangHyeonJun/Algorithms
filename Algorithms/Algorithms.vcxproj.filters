@@ -962,5 +962,8 @@
     <ClCompile Include="LeetCode_LargestPlusSign.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

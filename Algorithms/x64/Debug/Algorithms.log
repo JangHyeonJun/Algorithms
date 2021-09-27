@@ -1,2 +1,4 @@
-﻿  LeetCode_LargestPlusSign.cpp
-  Algorithms.vcxproj -> E:\MyGit\Algorithm\Algorithms\x64\Debug\Algorithms.exe
+﻿  LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp
+E:\MyGit\AlgorithmStudy\Algorithms\LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp(18,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\MyGit\AlgorithmStudy\Algorithms\LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp(31,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Algorithms.vcxproj -> E:\MyGit\AlgorithmStudy\Algorithms\x64\Debug\Algorithms.exe
