@@ -456,6 +456,7 @@
     <ClCompile Include="toss_5.cpp" />
     <ClCompile Include="toss_6.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
+    <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

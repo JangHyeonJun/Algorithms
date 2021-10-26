@@ -968,5 +968,8 @@
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="ZigZagConversion.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
