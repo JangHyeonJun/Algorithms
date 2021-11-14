@@ -974,5 +974,8 @@
     <ClCompile Include="LeetCode_ContainerWithMostWater.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="programmers_42861_2.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
