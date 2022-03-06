@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <unordered_set>
 #include <string>
 
 using namespace std;
@@ -9,12 +8,10 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-		unordered_set<int> us;
 		vector<vector<int>> result;
-		
 		sort(nums.begin(), nums.end());
 
-		for (int left = 1; left < nums.size() - 2; left++)
+		for (int left = 0; left < (int)nums.size() - 2; left++)
 		{
 			int center = left + 1;
 			int right = nums.size() - 1;
@@ -26,20 +23,21 @@ public:
 			{
 				int sum = nums[left] + nums[center] + nums[right];
 
-				long long hash = (long long)left << 34 | (long long)center << 17 | (long long)right;
-
-				if (sum == 0 && us.find(hash) == us.end())
+				if (sum < 0)
+					center++;
+				else if (sum > 0)
+					right--;
+				else
 				{
-					us.insert(hash);
-					result.push_back({ nums[left], nums[center], nums[right]});
+					result.push_back({ nums[left], nums[center], nums[right] });
+					while (nums.size() > center + 1 && nums[center] == nums[center + 1])
+						center++;
+					while (0 <= right - 1 && nums[right] == nums[right - 1])
+						right--;
 
 					center++;
 					right--;
 				}
-				else if (sum < 0)
-					center++;
-				else
-					right--;
 			}
 		}
 
