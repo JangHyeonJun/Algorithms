@@ -349,6 +349,7 @@
     <ClCompile Include="kakao_2020_2.cpp" />
     <ClCompile Include="kakao_2020_5.cpp" />
     <ClCompile Include="LeetCode_3Sum.cpp" />
+    <ClCompile Include="LeetCode_3SumClosest.cpp" />
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp" />
     <ClCompile Include="LeetCode_ContainerWithMostWater.cpp" />
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
