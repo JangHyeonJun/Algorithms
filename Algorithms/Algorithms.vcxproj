@@ -357,6 +357,7 @@
     <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
     <ClCompile Include="LeetCode_FizzBuzz.cpp" />
     <ClCompile Include="LeetCode_LargestPlusSign.cpp" />
+    <ClCompile Include="LeetCode_LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LeetCode_MaximizeDistanceToClosestPerson.cpp" />
