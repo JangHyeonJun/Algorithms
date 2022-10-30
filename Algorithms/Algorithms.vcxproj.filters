@@ -968,5 +968,35 @@
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="ZigZagConversion.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_ContainerWithMostWater.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers_42861_2.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_MaximizeDistanceToClosestPerson.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_3Sum.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_3SumClosest.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_LetterCombinationsOfAPhoneNumber.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_4Sum.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_GenerateParentheses.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_SwapNodesInParis.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

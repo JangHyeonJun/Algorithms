@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -348,14 +348,21 @@
     <ClCompile Include="kakao_2020_1.cpp" />
     <ClCompile Include="kakao_2020_2.cpp" />
     <ClCompile Include="kakao_2020_5.cpp" />
+    <ClCompile Include="LeetCode_3Sum.cpp" />
+    <ClCompile Include="LeetCode_3SumClosest.cpp" />
+    <ClCompile Include="LeetCode_4Sum.cpp" />
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp" />
+    <ClCompile Include="LeetCode_ContainerWithMostWater.cpp" />
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
+    <ClCompile Include="LeetCode_GenerateParentheses.cpp" />
     <ClCompile Include="LeetCode_HammingDistance.cpp" />
     <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
     <ClCompile Include="LeetCode_FizzBuzz.cpp" />
     <ClCompile Include="LeetCode_LargestPlusSign.cpp" />
+    <ClCompile Include="LeetCode_LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LeetCode_MaximizeDistanceToClosestPerson.cpp" />
     <ClCompile Include="LeetCode_NumberOf1Bits.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
     <ClCompile Include="LeetCode_PowerOfThree.cpp" />
@@ -376,6 +383,7 @@
     <ClCompile Include="LeetCode_SingleNumber.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
+    <ClCompile Include="LeetCode_SwapNodesInParis.cpp" />
     <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
@@ -409,6 +417,7 @@
     <ClCompile Include="programmers_42842.cpp" />
     <ClCompile Include="programmers_42860.cpp" />
     <ClCompile Include="programmers_42861.cpp" />
+    <ClCompile Include="programmers_42861_2.cpp" />
     <ClCompile Include="programmers_42862.cpp" />
     <ClCompile Include="programmers_42883.cpp" />
     <ClCompile Include="programmers_42885.cpp" />
@@ -456,6 +465,7 @@
     <ClCompile Include="toss_5.cpp" />
     <ClCompile Include="toss_6.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
+    <ClCompile Include="ZigZagConversion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
