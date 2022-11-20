@@ -1,2 +1,5 @@
-﻿  LeetCode_GenerateParentheses.cpp
+﻿  LeetCode_SearchInRotatedSortedArray.cpp
+D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_SearchInRotatedSortedArray.cpp(13,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_SearchInRotatedSortedArray.cpp(37,33): warning C4267: '-=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_SearchInRotatedSortedArray.cpp(48,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Algorithms.vcxproj -> D:\MyGit\AlgorithmStudy\Algorithms\x64\Debug\Algorithms.exe

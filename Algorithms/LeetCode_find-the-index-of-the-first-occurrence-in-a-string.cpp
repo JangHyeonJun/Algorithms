@@ -17,8 +17,8 @@
 //            return -1;
 //
 //        auto max = haystack.length() - needle.length();
-//        for (int i = 0; i <= max; i++)
 //        {
+//        for (int i = 0; i <= max; i++)
 //            bool equal = true;
 //            for (int j = 0; j < needle.length(); j++)
 //            {

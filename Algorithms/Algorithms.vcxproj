@@ -354,6 +354,8 @@
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp" />
     <ClCompile Include="LeetCode_ContainerWithMostWater.cpp" />
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
+    <ClCompile Include="LeetCode_DivideTwoIntegers.cpp" />
+    <ClCompile Include="LeetCode_find-the-index-of-the-first-occurrence-in-a-string.cpp" />
     <ClCompile Include="LeetCode_GenerateParentheses.cpp" />
     <ClCompile Include="LeetCode_HammingDistance.cpp" />
     <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
@@ -379,6 +381,7 @@
     <ClCompile Include="LeetCode_RemoveElement.cpp" />
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
     <ClCompile Include="LeetCode_RomantoInteger.cpp" />
+    <ClCompile Include="LeetCode_SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="LeetCode_ShuffleanArray.cpp" />
     <ClCompile Include="LeetCode_SingleNumber.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
