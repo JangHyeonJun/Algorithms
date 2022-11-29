@@ -1007,5 +1007,8 @@
     <ClCompile Include="LeetCode_SearchInRotatedSortedArray.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
