@@ -212,6 +212,7 @@
     <ClCompile Include="11720.cpp" />
     <ClCompile Include="11721.cpp" />
     <ClCompile Include="11725.cpp" />
+    <ClCompile Include="11726.cpp" />
     <ClCompile Include="11729.cpp" />
     <ClCompile Include="1181.cpp" />
     <ClCompile Include="11866.cpp" />
@@ -470,6 +471,9 @@
     <ClCompile Include="toss_6.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LeetCode_ValidSudoku.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1010,5 +1010,13 @@
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="11726.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LeetCode_ValidSudoku.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </None>
   </ItemGroup>
 </Project>

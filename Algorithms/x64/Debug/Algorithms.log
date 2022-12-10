@@ -1,5 +1,2 @@
-﻿  LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp
-D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp(10,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp(44,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp(51,1): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  11726.cpp
   Algorithms.vcxproj -> D:\MyGit\AlgorithmStudy\Algorithms\x64\Debug\Algorithms.exe
