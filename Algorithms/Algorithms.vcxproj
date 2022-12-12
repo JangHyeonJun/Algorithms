@@ -372,6 +372,7 @@
     <ClCompile Include="LeetCode_MultiplyStrings.cpp" />
     <ClCompile Include="LeetCode_NumberOf1Bits.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
+    <ClCompile Include="LeetCode_Permutations.cpp" />
     <ClCompile Include="LeetCode_PowerOfThree.cpp" />
     <ClCompile Include="LeetCode_ReverseInteger.cpp" />
     <ClCompile Include="LeetCode_CheckIfNandItsDoubleExist.cpp" />
