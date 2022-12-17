@@ -1,3 +1,5 @@
 ﻿  LeetCode_Permutations2.cpp
-D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_Permutations2.cpp(32,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\MyGit\AlgorithmStudy\Algorithms\LeetCode_Permutations2.cpp(43,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LeetCode_Permutations_stack.cpp
+  코드를 생성하고 있습니다...
   Algorithms.vcxproj -> D:\MyGit\AlgorithmStudy\Algorithms\x64\Debug\Algorithms.exe

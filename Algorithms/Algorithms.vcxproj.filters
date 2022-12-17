@@ -1025,6 +1025,9 @@
     <ClCompile Include="LeetCode_Permutations.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_Permutations_stack.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
     <ClCompile Include="LeetCode_Permutations2.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
