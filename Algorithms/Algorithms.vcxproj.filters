@@ -1040,6 +1040,9 @@
     <ClCompile Include="LeetCode_Pow.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_MaximumSubarray.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LeetCode_ValidSudoku.cpp">
