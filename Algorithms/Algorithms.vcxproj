@@ -372,6 +372,7 @@
     <ClCompile Include="LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LeetCode_MaximizeDistanceToClosestPerson.cpp" />
     <ClCompile Include="LeetCode_MaximumSubarray.cpp" />
+    <ClCompile Include="LeetCode_MergeIntervals.cpp" />
     <ClCompile Include="LeetCode_MultiplyStrings.cpp" />
     <ClCompile Include="LeetCode_NumberOf1Bits.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
