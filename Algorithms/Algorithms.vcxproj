@@ -401,6 +401,7 @@
     <ClCompile Include="LeetCode_SingleNumber.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
     <ClCompile Include="LeetCode_SpiralMatrix.cpp" />
+    <ClCompile Include="LeetCode_SpiralMatrix2.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
     <ClCompile Include="LeetCode_SwapNodesInParis.cpp" />
     <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp" />
