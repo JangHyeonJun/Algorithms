@@ -1058,6 +1058,15 @@
     <ClCompile Include="LeetCode_SpiralMatrix2.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_RotateList.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_UniquePath.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_UniquePath2.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LeetCode_ValidSudoku.cpp">
