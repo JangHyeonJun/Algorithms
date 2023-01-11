@@ -400,6 +400,7 @@
     <ClCompile Include="LeetCode_RotateList.cpp" />
     <ClCompile Include="LeetCode_SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="LeetCode_ShuffleanArray.cpp" />
+    <ClCompile Include="LeetCode_SimplifyPath.cpp" />
     <ClCompile Include="LeetCode_SingleNumber.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
     <ClCompile Include="LeetCode_SpiralMatrix.cpp" />
