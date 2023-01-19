@@ -399,6 +399,7 @@
     <ClCompile Include="LeetCode_RotateImage.cpp" />
     <ClCompile Include="LeetCode_RotateList.cpp" />
     <ClCompile Include="LeetCode_SearchInRotatedSortedArray.cpp" />
+    <ClCompile Include="LeetCode_SetMatrixZeroes.cpp" />
     <ClCompile Include="LeetCode_ShuffleanArray.cpp" />
     <ClCompile Include="LeetCode_SimplifyPath.cpp" />
     <ClCompile Include="LeetCode_SingleNumber.cpp" />
