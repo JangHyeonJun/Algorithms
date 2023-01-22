@@ -1076,6 +1076,9 @@
     <ClCompile Include="LeetCode_SetMatrixZeroes.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_SearchA2DMatrix.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LeetCode_ValidSudoku.cpp">
