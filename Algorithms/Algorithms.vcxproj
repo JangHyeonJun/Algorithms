@@ -362,6 +362,7 @@
     <ClCompile Include="LeetCode_find-the-index-of-the-first-occurrence-in-a-string.cpp" />
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="LeetCode_GenerateParentheses.cpp" />
+    <ClCompile Include="LeetCode_GrayCode.cpp" />
     <ClCompile Include="LeetCode_GroupAnagrams.cpp" />
     <ClCompile Include="LeetCode_HammingDistance.cpp" />
     <ClCompile Include="LeetCode_InsertInterval.cpp" />
@@ -379,6 +380,7 @@
     <ClCompile Include="LeetCode_MultiplyStrings.cpp" />
     <ClCompile Include="LeetCode_NumberOf1Bits.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
+    <ClCompile Include="LeetCode_PartitionList.cpp" />
     <ClCompile Include="LeetCode_Permutations.cpp" />
     <ClCompile Include="LeetCode_Permutations2.cpp" />
     <ClCompile Include="LeetCode_Permutations_stack.cpp" />
