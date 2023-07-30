@@ -358,6 +358,7 @@
     <ClCompile Include="LeetCode_CombinationSum2.cpp" />
     <ClCompile Include="LeetCode_ContainerWithMostWater.cpp" />
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
+    <ClCompile Include="LeetCode_DecodeWays.cpp" />
     <ClCompile Include="LeetCode_DivideTwoIntegers.cpp" />
     <ClCompile Include="LeetCode_find-the-index-of-the-first-occurrence-in-a-string.cpp" />
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp" />
