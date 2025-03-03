@@ -364,6 +364,7 @@
     <ClCompile Include="LeetCode_DivideTwoIntegers.cpp" />
     <ClCompile Include="LeetCode_find-the-index-of-the-first-occurrence-in-a-string.cpp" />
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp" />
+    <ClCompile Include="LeetCode_FirstUniqueCharacterInAString.cpp" />
     <ClCompile Include="LeetCode_GenerateParentheses.cpp" />
     <ClCompile Include="LeetCode_GrayCode.cpp" />
     <ClCompile Include="LeetCode_GroupAnagrams.cpp" />
