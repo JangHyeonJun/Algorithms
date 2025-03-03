@@ -1115,7 +1115,10 @@
     <ClCompile Include="LeetCode_2Sum.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="LeetCode_ValudSudoku.cpp">
+    <ClCompile Include="LeetCode_ValidSudoku2.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_RotateImage2.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
   </ItemGroup>

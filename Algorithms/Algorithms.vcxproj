@@ -405,6 +405,7 @@
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
     <ClCompile Include="LeetCode_RomantoInteger.cpp" />
     <ClCompile Include="LeetCode_RotateImage.cpp" />
+    <ClCompile Include="LeetCode_RotateImage2.cpp" />
     <ClCompile Include="LeetCode_RotateList.cpp" />
     <ClCompile Include="LeetCode_SearchA2DMatrix.cpp" />
     <ClCompile Include="LeetCode_SearchInRotatedSortedArray.cpp" />
@@ -424,7 +425,7 @@
     <ClCompile Include="LeetCode_UniquePath.cpp" />
     <ClCompile Include="LeetCode_ValidateBinarySearchTree.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
-    <ClCompile Include="LeetCode_ValudSudoku.cpp" />
+    <ClCompile Include="LeetCode_ValidSudoku2.cpp" />
     <ClCompile Include="LeetCode_WordSearch.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
