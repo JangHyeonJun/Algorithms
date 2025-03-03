@@ -15,7 +15,7 @@
 //
 //int Hash(string key)
 //{
-//	
+//	return 1;
 //}
 //
 //Node* table[MAX_TABLE];

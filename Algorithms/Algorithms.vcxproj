@@ -102,6 +102,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -349,6 +350,7 @@
     <ClCompile Include="kakao_2020_1.cpp" />
     <ClCompile Include="kakao_2020_2.cpp" />
     <ClCompile Include="kakao_2020_5.cpp" />
+    <ClCompile Include="LeetCode_2Sum.cpp" />
     <ClCompile Include="LeetCode_3Sum.cpp" />
     <ClCompile Include="LeetCode_3SumClosest.cpp" />
     <ClCompile Include="LeetCode_4Sum.cpp" />
@@ -422,6 +424,7 @@
     <ClCompile Include="LeetCode_UniquePath.cpp" />
     <ClCompile Include="LeetCode_ValidateBinarySearchTree.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
+    <ClCompile Include="LeetCode_ValudSudoku.cpp" />
     <ClCompile Include="LeetCode_WordSearch.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
