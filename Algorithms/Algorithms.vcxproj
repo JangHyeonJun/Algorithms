@@ -404,6 +404,7 @@
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="LeetCode_RemoveElement.cpp" />
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
+    <ClCompile Include="LeetCode_ReverseLinkedList.cpp" />
     <ClCompile Include="LeetCode_ReverseString2.cpp" />
     <ClCompile Include="LeetCode_RomantoInteger.cpp" />
     <ClCompile Include="LeetCode_RotateImage.cpp" />
@@ -423,6 +424,7 @@
     <ClCompile Include="LeetCode_Subsets.cpp" />
     <ClCompile Include="LeetCode_SubsetsII.cpp" />
     <ClCompile Include="LeetCode_SwapNodesInParis.cpp" />
+    <ClCompile Include="LeetCode_SymmetricTree.cpp" />
     <ClCompile Include="LeetCode_ThirdMaximumNumber.cpp" />
     <ClCompile Include="LeetCode_UniquePath.cpp" />
     <ClCompile Include="LeetCode_ValidateBinarySearchTree.cpp" />
