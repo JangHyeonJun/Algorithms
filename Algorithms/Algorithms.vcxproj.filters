@@ -1136,6 +1136,9 @@
     <ClCompile Include="LeetCode_BinaryTreeLevelOrderTraversal.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_FirstBadVersion.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LeetCode_ValidSudoku.cpp">
