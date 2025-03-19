@@ -354,6 +354,7 @@
     <ClCompile Include="LeetCode_3Sum.cpp" />
     <ClCompile Include="LeetCode_3SumClosest.cpp" />
     <ClCompile Include="LeetCode_4Sum.cpp" />
+    <ClCompile Include="LeetCode_BestTimetoBuyandSellStock2.cpp" />
     <ClCompile Include="LeetCode_BestTimetoBuyandSellStockII.cpp" />
     <ClCompile Include="LeetCode_BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="LeetCode_ClimbingStairs2.cpp" />
