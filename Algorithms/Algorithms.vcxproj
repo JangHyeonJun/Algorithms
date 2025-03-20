@@ -421,6 +421,7 @@
     <ClCompile Include="LeetCode_SearchInRotatedSortedArrayII.cpp" />
     <ClCompile Include="LeetCode_SetMatrixZeroes.cpp" />
     <ClCompile Include="LeetCode_ShuffleanArray.cpp" />
+    <ClCompile Include="LeetCode_ShuffleanArray2.cpp" />
     <ClCompile Include="LeetCode_SimplifyPath.cpp" />
     <ClCompile Include="LeetCode_SingleNumber.cpp" />
     <ClCompile Include="LeetCode_SortArrayByParity.cpp" />
