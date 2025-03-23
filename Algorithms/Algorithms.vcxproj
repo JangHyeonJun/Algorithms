@@ -387,6 +387,7 @@
     <ClCompile Include="LeetCode_MaximumSubarray2.cpp" />
     <ClCompile Include="LeetCode_MergeIntervals.cpp" />
     <ClCompile Include="LeetCode_MinimumPathSum.cpp" />
+    <ClCompile Include="LeetCode_MinStack.cpp" />
     <ClCompile Include="LeetCode_MultiplyStrings.cpp" />
     <ClCompile Include="LeetCode_NumberOf1Bits.cpp" />
     <ClCompile Include="LeetCode_PalindromeNumber.cpp" />
