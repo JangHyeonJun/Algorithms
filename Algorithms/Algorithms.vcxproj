@@ -439,6 +439,7 @@
     <ClCompile Include="LeetCode_UniquePath.cpp" />
     <ClCompile Include="LeetCode_ValidateBinarySearchTree.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
+    <ClCompile Include="LeetCode_ValidParentheses.cpp" />
     <ClCompile Include="LeetCode_ValidSudoku2.cpp" />
     <ClCompile Include="LeetCode_WordSearch.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
