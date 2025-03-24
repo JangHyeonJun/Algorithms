@@ -431,6 +431,7 @@
     <ClCompile Include="LeetCode_SpiralMatrix.cpp" />
     <ClCompile Include="LeetCode_SpiralMatrix2.cpp" />
     <ClCompile Include="LeetCode_SquaresofaSortedArray.cpp" />
+    <ClCompile Include="LeetCode_StringToInteger.cpp" />
     <ClCompile Include="LeetCode_Subsets.cpp" />
     <ClCompile Include="LeetCode_SubsetsII.cpp" />
     <ClCompile Include="LeetCode_SwapNodesInParis.cpp" />
