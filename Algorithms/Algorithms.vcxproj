@@ -401,6 +401,7 @@
     <ClCompile Include="LeetCode_PowerOfThree2.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray2.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArrayII.cpp" />
+    <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArrayII2.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedListII.cpp" />
     <ClCompile Include="LeetCode_RemoveElement2.cpp" />
     <ClCompile Include="LeetCode_ReverseInteger.cpp" />
