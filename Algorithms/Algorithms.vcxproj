@@ -420,6 +420,7 @@
     <ClCompile Include="LeetCode_ReverseLinkedList.cpp" />
     <ClCompile Include="LeetCode_ReverseString2.cpp" />
     <ClCompile Include="LeetCode_RomantoInteger.cpp" />
+    <ClCompile Include="LeetCode_RotateArray2.cpp" />
     <ClCompile Include="LeetCode_RotateImage.cpp" />
     <ClCompile Include="LeetCode_RotateImage2.cpp" />
     <ClCompile Include="LeetCode_RotateList.cpp" />
