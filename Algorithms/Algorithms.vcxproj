@@ -383,6 +383,7 @@
     <ClCompile Include="LeetCode_LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LeetCode_MajorityElement.cpp" />
     <ClCompile Include="LeetCode_MaximizeDistanceToClosestPerson.cpp" />
     <ClCompile Include="LeetCode_MaximumSubarray.cpp" />
     <ClCompile Include="LeetCode_MaximumSubarray2.cpp" />
