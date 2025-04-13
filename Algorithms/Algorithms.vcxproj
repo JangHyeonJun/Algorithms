@@ -381,6 +381,7 @@
     <ClCompile Include="LeetCode_FizzBuzz.cpp" />
     <ClCompile Include="LeetCode_JumpGame.cpp" />
     <ClCompile Include="LeetCode_JumpGame2.cpp" />
+    <ClCompile Include="LeetCode_JumpGameII2.cpp" />
     <ClCompile Include="LeetCode_LargestPlusSign.cpp" />
     <ClCompile Include="LeetCode_LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp" />
