@@ -377,6 +377,7 @@
     <ClCompile Include="LeetCode_HammingDistance.cpp" />
     <ClCompile Include="LeetCode_HIndex.cpp" />
     <ClCompile Include="LeetCode_HouseRobber.cpp" />
+    <ClCompile Include="LeetCode_InsertDeleteGetRandomO1.cpp" />
     <ClCompile Include="LeetCode_InsertInterval.cpp" />
     <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
     <ClCompile Include="LeetCode_FizzBuzz.cpp" />
