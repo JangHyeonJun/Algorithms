@@ -405,6 +405,7 @@
     <ClCompile Include="LeetCode_Pow.cpp" />
     <ClCompile Include="LeetCode_PowerOfThree.cpp" />
     <ClCompile Include="LeetCode_PowerOfThree2.cpp" />
+    <ClCompile Include="LeetCode_ProductOfArrayExceptSelf.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArray2.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArrayII.cpp" />
     <ClCompile Include="LeetCode_RemoveDuplicatesfromSortedArrayII2.cpp" />
