@@ -371,6 +371,7 @@
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="LeetCode_FirstBadVersion.cpp" />
     <ClCompile Include="LeetCode_FirstUniqueCharacterInAString.cpp" />
+    <ClCompile Include="LeetCode_GasStation.cpp" />
     <ClCompile Include="LeetCode_GenerateParentheses.cpp" />
     <ClCompile Include="LeetCode_GrayCode.cpp" />
     <ClCompile Include="LeetCode_GroupAnagrams.cpp" />
