@@ -382,6 +382,7 @@
     <ClCompile Include="LeetCode_InsertInterval.cpp" />
     <ClCompile Include="LeetCode_IntegertoRoman.cpp" />
     <ClCompile Include="LeetCode_FizzBuzz.cpp" />
+    <ClCompile Include="LeetCode_IntegerToRoman2.cpp" />
     <ClCompile Include="LeetCode_JumpGame.cpp" />
     <ClCompile Include="LeetCode_JumpGame2.cpp" />
     <ClCompile Include="LeetCode_JumpGameII2.cpp" />
