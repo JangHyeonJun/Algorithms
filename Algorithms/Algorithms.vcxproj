@@ -387,7 +387,9 @@
     <ClCompile Include="LeetCode_JumpGame2.cpp" />
     <ClCompile Include="LeetCode_JumpGameII2.cpp" />
     <ClCompile Include="LeetCode_LargestPlusSign.cpp" />
+    <ClCompile Include="LeetCode_LengthOfLastWord.cpp" />
     <ClCompile Include="LeetCode_LetterCombinationsOfAPhoneNumber.cpp" />
+    <ClCompile Include="LeetCode_LongestCommonPrefix.cpp" />
     <ClCompile Include="LeetCode_LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LeetCode_LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LeetCode_MajorityElement.cpp" />
