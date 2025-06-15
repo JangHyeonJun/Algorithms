@@ -460,6 +460,7 @@
     <ClCompile Include="LeetCode_ValidParentheses.cpp" />
     <ClCompile Include="LeetCode_ValidSudoku2.cpp" />
     <ClCompile Include="LeetCode_WordSearch.cpp" />
+    <ClCompile Include="LeetCode_ZigzagConversion.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="pg_level3_1%281%29.cpp" />
