@@ -429,6 +429,7 @@
     <ClCompile Include="LeetCode_ReplaceElementswithGreatestElementonRightSide.cpp" />
     <ClCompile Include="LeetCode_ReverseLinkedList.cpp" />
     <ClCompile Include="LeetCode_ReverseString2.cpp" />
+    <ClCompile Include="LeetCode_ReverseWordsInAString.cpp" />
     <ClCompile Include="LeetCode_RomantoInteger.cpp" />
     <ClCompile Include="LeetCode_RomanToInteger2.cpp" />
     <ClCompile Include="LeetCode_RotateArray2.cpp" />
