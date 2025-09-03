@@ -365,6 +365,9 @@
     <ClCompile Include="LeetCode_CombinationSum2.cpp" />
     <ClCompile Include="LeetCode_ContainerWithMostWater.cpp" />
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
+    <ClCompile Include="LeetCode_IsSubsequence.cpp" />
+    <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray2.cpp" />
+    <ClCompile Include="LeetCode_SumOfTwoIntegers.cpp" />
     <ClCompile Include="LeetCode_CountPrimes.cpp" />
     <ClCompile Include="LeetCode_DecodeWays.cpp" />
     <ClCompile Include="LeetCode_DivideTwoIntegers.cpp" />
@@ -459,6 +462,7 @@
     <ClCompile Include="LeetCode_UniquePath.cpp" />
     <ClCompile Include="LeetCode_ValidateBinarySearchTree.cpp" />
     <ClCompile Include="LeetCode_ValidMountainArray.cpp" />
+    <ClCompile Include="LeetCode_ValidPalindrome.cpp" />
     <ClCompile Include="LeetCode_ValidParentheses.cpp" />
     <ClCompile Include="LeetCode_ValidSudoku2.cpp" />
     <ClCompile Include="LeetCode_WordSearch.cpp" />
@@ -520,6 +524,7 @@
     <ClCompile Include="programmers_level3(5)_2.cpp" />
     <ClCompile Include="programmers_level3_1.cpp" />
     <ClCompile Include="LeetCode_RotateArray.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedArray3.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="segementTreeBasic.cpp" />
