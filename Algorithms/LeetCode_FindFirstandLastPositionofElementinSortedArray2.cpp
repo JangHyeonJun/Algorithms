@@ -6,50 +6,51 @@
 //using namespace std;
 //
 //class Solution {
-//private:
-//    pair<int, int> find(vector<int>& nums, int begin, int end, int target)
+//
+//    int findLower(vector<int>& nums, int target)
 //    {
-//        if (nums.size() == 0)
-//            return { -1, -1 };
+//        if (nums.empty())
+//            return -1;
 //
-//        while (begin <= end)
-//        {
+//        int begin = 0;
+//        int end = nums.size() - 1;
+//
+//        while (begin < end) {
 //            int i = (begin + end) / 2;
-//            if (nums[i] == target)
-//            {
-//                if (begin == end)
-//                    return { i, i };
 //
-//                auto lower = find(nums, begin, i - 1, target);
-//                auto upper = find(nums, i + 1, end, target);
-//
-//                int low = lower.first == -1 ? i : 
-//                    i < lower.first ? i : lower.first;
-//                int high = upper.second == -1 ? i : 
-//                    i > upper.second ? i : upper.second;
-//
-//                return { low, high };
-//            }
-//            else if (nums[i] > target)
-//                end = i - 1;
+//            if (nums[i] >= target)
+//                end = i;
 //            else
 //                begin = i + 1;
 //        }
 //
-//        return { -1, -1 };
+//        return nums[begin] == target ? begin : -1;
+//    }
+//
+//    int findUpper(vector<int>& nums, int target)
+//    {
+//        if (nums.empty())
+//            return -1;
+//
+//        int begin = 0;
+//        int end = nums.size();
+//
+//        while (begin < end) {
+//            int i = (begin + end) / 2;
+//
+//            if (nums[i] <= target)
+//                begin = i + 1;
+//            else
+//                end = i;
+//        }
+//
+//        return (begin >= 0 && nums[begin - 1] == target) ? begin - 1 : -1; 
 //    }
 //public:
 //    vector<int> searchRange(vector<int>& nums, int target) {
-//        auto result = find(nums, 0, nums.size() - 1, target);
+//        auto lower = findLower(nums, target);
+//        auto upper = findUpper(nums, target);
 //
-//        return vector<int> {result.first, result.second};
+//        return { lower, upper };
 //    }
 //};
-//
-//int main()
-//{
-//    Solution s;
-//    vector<int> v{ 5,7,7,8,8,8,10 };
-//    auto result = s.searchRange(v, 8);
-//    return 0;
-//}
