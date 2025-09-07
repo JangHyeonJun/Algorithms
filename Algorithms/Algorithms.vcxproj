@@ -360,6 +360,8 @@
     <ClCompile Include="LeetCode_BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="LeetCode_BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="LeetCode_ClimbingStairs2.cpp" />
+    <ClCompile Include="LeetCode_CloneGraph.cpp" />
+    <ClCompile Include="LeetCode_CoinChange.cpp" />
     <ClCompile Include="LeetCode_Combinations.cpp" />
     <ClCompile Include="LeetCode_CombinationSum.cpp" />
     <ClCompile Include="LeetCode_CombinationSum2.cpp" />

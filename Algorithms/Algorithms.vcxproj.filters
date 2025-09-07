@@ -1244,6 +1244,12 @@
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray2.cpp">
       <Filter>소스 파일\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_CoinChange.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_CloneGraph.cpp">
+      <Filter>소스 파일\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LeetCode_ValidSudoku.cpp">
