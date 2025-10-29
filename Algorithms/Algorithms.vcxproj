@@ -551,6 +551,7 @@
     <ClCompile Include="toss_2.cpp" />
     <ClCompile Include="toss_5.cpp" />
     <ClCompile Include="toss_6.cpp" />
+    <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
     <ClCompile Include="LeetCode_UniquePath2.cpp" />
