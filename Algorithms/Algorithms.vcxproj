@@ -369,6 +369,7 @@
     <ClCompile Include="LeetCode_ContainerWithMostWater.cpp" />
     <ClCompile Include="LeetCode_ContainsDuplicate.cpp" />
     <ClCompile Include="LeetCode_FindPivotIndex.cpp" />
+    <ClCompile Include="LeetCode_GameOfLife.cpp" />
     <ClCompile Include="LeetCode_IsomorphicStrings.cpp" />
     <ClCompile Include="LeetCode_IsSubsequence.cpp" />
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray2.cpp" />
