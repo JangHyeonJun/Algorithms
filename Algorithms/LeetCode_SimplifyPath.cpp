@@ -1,52 +1,48 @@
-//#include <string>
+﻿//#include <string>
 //#include <deque>
 //using namespace std;
 //
 //class Solution {
 //public:
-//  string simplifyPath(string path) {
-//    deque<char> result;
-//    result.push_back(path[0]);
-//    int dotCount = 0;
-//    for (int i = 1; i < path.length(); i++)
-//    {
-//      if (path[i] == '.')
-//      {
-//        dotCount++;
-//        continue;
-//      }
+//    string simplifyPath(string path) {
+//        deque<string> q;
 //
-//      if (dotCount > 2)
-//        for (int i = 0; i < dotCount; i++)
-//          result.push_back('.');
+//        auto iter = path.begin();
+//		while (iter != path.end())
+//        {
+//            if (*iter != '/')
+//            {
+//                auto start = iter;
+//                while (iter != path.end() && *iter != '/')
+//                    iter++;
 //
-//      while (path[i] != '.' && dotCount < 3 && result.back() == '.')
-//        result.pop_back();
+//                auto s = start - path.begin();
+//                auto e = iter - path.begin();
+//                auto str = path.substr(s, e - s);
 //
-//      while (result.size() > 0 && path[i] == '/' && result.back() == '/')
-//        result.pop_back();
+//                if (str == "..")
+//                {
+//                    if (!q.empty())
+//                        q.pop_back();
+//                }
+//                else if (str != ".")
+//                    q.push_back(str);
+//            }
 //
-//      dotCount = 0;
-//      result.push_back(path[i]);
+//            if (iter != path.end())
+//                iter++;
+//        }
+//
+//        if (q.empty())
+//            return "/";
+//
+//        string result;
+//        while (!q.empty())
+//        {
+//            result += "/" + q.front();
+//            q.pop_front();
+//        }
+//
+//        return result;
 //    }
-//
-//    if (dotCount > 2)
-//      for (int i = 0; i < dotCount; i++)
-//        result.push_back('.');
-//
-//    if (result.size() > 1 && result.back() == '/')
-//      result.pop_back();
-//
-//    string s;
-//    for (auto c : result)
-//      s.push_back(c);
-//
-//    return s;
-//  }
 //};
-//
-//int main()
-//{
-//  Solution s;
-//  s.simplifyPath("/home///...//...");
-//}
