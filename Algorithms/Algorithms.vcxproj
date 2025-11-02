@@ -374,6 +374,7 @@
     <ClCompile Include="LeetCode_IsSubsequence.cpp" />
     <ClCompile Include="LeetCode_FindFirstandLastPositionofElementinSortedArray2.cpp" />
     <ClCompile Include="LeetCode_LongestConsecutiveSequence.cpp" />
+    <ClCompile Include="LeetCode_MinimumNumberofArrowstoBurstBalloons.cpp" />
     <ClCompile Include="LeetCode_MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="LeetCode_SumOfTwoIntegers.cpp" />
     <ClCompile Include="LeetCode_CountPrimes.cpp" />
